@@ -1,0 +1,950 @@
+{
+  "quizTitle": "Tally Interview Questions MCQ Test",
+  "questions": [
+    {
+      "question": "What is Tally primarily used for?",
+      "answerOptions": [
+        {
+          "text": "Accounting, inventory, taxation and payroll management",
+          "isCorrect": true
+        },
+        {
+          "text": "Graphic design",
+          "isCorrect": false
+        },
+        {
+          "text": "Video editing",
+          "isCorrect": false
+        },
+        {
+          "text": "Web hosting",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which is a main feature of Tally?",
+      "answerOptions": [
+        {
+          "text": "Inventory management",
+          "isCorrect": true
+        },
+        {
+          "text": "Photo editing",
+          "isCorrect": false
+        },
+        {
+          "text": "Programming",
+          "isCorrect": false
+        },
+        {
+          "text": "CAD design",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does Tally Prime improve compared to Tally ERP 9?",
+      "answerOptions": [
+        {
+          "text": "User interface and navigation",
+          "isCorrect": true
+        },
+        {
+          "text": "Removes reporting",
+          "isCorrect": false
+        },
+        {
+          "text": "Disables GST",
+          "isCorrect": false
+        },
+        {
+          "text": "Only supports one company",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a voucher in Tally?",
+      "answerOptions": [
+        {
+          "text": "A record of a transaction",
+          "isCorrect": true
+        },
+        {
+          "text": "A stock item",
+          "isCorrect": false
+        },
+        {
+          "text": "A company profile",
+          "isCorrect": false
+        },
+        {
+          "text": "A backup file",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "How do you create a ledger in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Gateway of Tally > Create > Ledger",
+          "isCorrect": true
+        },
+        {
+          "text": "Gateway > Reports",
+          "isCorrect": false
+        },
+        {
+          "text": "Gateway > Banking",
+          "isCorrect": false
+        },
+        {
+          "text": "Gateway > Payroll",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does GST stand for?",
+      "answerOptions": [
+        {
+          "text": "Goods and Services Tax",
+          "isCorrect": true
+        },
+        {
+          "text": "General Sales Tax",
+          "isCorrect": false
+        },
+        {
+          "text": "Government Service Tariff",
+          "isCorrect": false
+        },
+        {
+          "text": "Goods Supply Tax",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which is a voucher type in Tally?",
+      "answerOptions": [
+        {
+          "text": "Payment Voucher",
+          "isCorrect": true
+        },
+        {
+          "text": "Invoice Template",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock Report",
+          "isCorrect": false
+        },
+        {
+          "text": "Balance Group",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does inventory management in Tally track?",
+      "answerOptions": [
+        {
+          "text": "Inventory movements",
+          "isCorrect": true
+        },
+        {
+          "text": "Employee attendance only",
+          "isCorrect": false
+        },
+        {
+          "text": "Website traffic",
+          "isCorrect": false
+        },
+        {
+          "text": "Email records",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a stock item in Tally?",
+      "answerOptions": [
+        {
+          "text": "A product purchased or sold",
+          "isCorrect": true
+        },
+        {
+          "text": "A ledger group",
+          "isCorrect": false
+        },
+        {
+          "text": "A tax report",
+          "isCorrect": false
+        },
+        {
+          "text": "A voucher type",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which menu is used for bank reconciliation?",
+      "answerOptions": [
+        {
+          "text": "Banking > Reconcile Bank",
+          "isCorrect": true
+        },
+        {
+          "text": "Inventory > Stock Items",
+          "isCorrect": false
+        },
+        {
+          "text": "Payroll > Employees",
+          "isCorrect": false
+        },
+        {
+          "text": "Display > Day Book",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does Tally's multi-currency feature do?",
+      "answerOptions": [
+        {
+          "text": "Handles transactions in multiple currencies",
+          "isCorrect": true
+        },
+        {
+          "text": "Creates websites",
+          "isCorrect": false
+        },
+        {
+          "text": "Tracks attendance",
+          "isCorrect": false
+        },
+        {
+          "text": "Edits invoices",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What are Cost Centers used for?",
+      "answerOptions": [
+        {
+          "text": "Tracking costs by department or project",
+          "isCorrect": true
+        },
+        {
+          "text": "Creating backups",
+          "isCorrect": false
+        },
+        {
+          "text": "Managing passwords",
+          "isCorrect": false
+        },
+        {
+          "text": "Printing vouchers",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which report can be generated in Tally?",
+      "answerOptions": [
+        {
+          "text": "Balance Sheet",
+          "isCorrect": true
+        },
+        {
+          "text": "Network Report",
+          "isCorrect": false
+        },
+        {
+          "text": "SEO Report",
+          "isCorrect": false
+        },
+        {
+          "text": "Design Report",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a Trial Balance?",
+      "answerOptions": [
+        {
+          "text": "A report listing balances of all ledgers",
+          "isCorrect": true
+        },
+        {
+          "text": "Inventory list",
+          "isCorrect": false
+        },
+        {
+          "text": "Tax invoice",
+          "isCorrect": false
+        },
+        {
+          "text": "Attendance sheet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Where do you create an inventory item?",
+      "answerOptions": [
+        {
+          "text": "Inventory Info > Stock Items > Create",
+          "isCorrect": true
+        },
+        {
+          "text": "Banking > Reconcile",
+          "isCorrect": false
+        },
+        {
+          "text": "Payroll > Salary",
+          "isCorrect": false
+        },
+        {
+          "text": "Display > Reports",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What can payroll management in Tally handle?",
+      "answerOptions": [
+        {
+          "text": "Salaries, wages and deductions",
+          "isCorrect": true
+        },
+        {
+          "text": "Website hosting",
+          "isCorrect": false
+        },
+        {
+          "text": "Video rendering",
+          "isCorrect": false
+        },
+        {
+          "text": "Social media posts",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which is an accounting group in Tally?",
+      "answerOptions": [
+        {
+          "text": "Assets",
+          "isCorrect": true
+        },
+        {
+          "text": "Templates",
+          "isCorrect": false
+        },
+        {
+          "text": "Widgets",
+          "isCorrect": false
+        },
+        {
+          "text": "Extensions",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Who issues a debit note?",
+      "answerOptions": [
+        {
+          "text": "Buyer",
+          "isCorrect": true
+        },
+        {
+          "text": "Seller",
+          "isCorrect": false
+        },
+        {
+          "text": "Bank",
+          "isCorrect": false
+        },
+        {
+          "text": "Auditor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a Bank Reconciliation Statement?",
+      "answerOptions": [
+        {
+          "text": "Comparison of book and bank balances",
+          "isCorrect": true
+        },
+        {
+          "text": "GST return",
+          "isCorrect": false
+        },
+        {
+          "text": "Payroll report",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock report",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which GST report can Tally generate?",
+      "answerOptions": [
+        {
+          "text": "GSTR-3B",
+          "isCorrect": true
+        },
+        {
+          "text": "ITR-7",
+          "isCorrect": false
+        },
+        {
+          "text": "Form 16 only",
+          "isCorrect": false
+        },
+        {
+          "text": "PAN report",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the use of Alter option?",
+      "answerOptions": [
+        {
+          "text": "Modify existing data",
+          "isCorrect": true
+        },
+        {
+          "text": "Delete software",
+          "isCorrect": false
+        },
+        {
+          "text": "Create backups only",
+          "isCorrect": false
+        },
+        {
+          "text": "Print reports only",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "How does Tally handle depreciation?",
+      "answerOptions": [
+        {
+          "text": "Calculates depreciation using selected methods",
+          "isCorrect": true
+        },
+        {
+          "text": "Ignores fixed assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Only manual calculation",
+          "isCorrect": false
+        },
+        {
+          "text": "No depreciation support",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a group in Tally?",
+      "answerOptions": [
+        {
+          "text": "Classification of ledgers",
+          "isCorrect": true
+        },
+        {
+          "text": "Type of voucher",
+          "isCorrect": false
+        },
+        {
+          "text": "Tax slab",
+          "isCorrect": false
+        },
+        {
+          "text": "Inventory unit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Where are GST rates configured?",
+      "answerOptions": [
+        {
+          "text": "F11 Features > Statutory & Taxation",
+          "isCorrect": true
+        },
+        {
+          "text": "Payroll menu",
+          "isCorrect": false
+        },
+        {
+          "text": "Day Book",
+          "isCorrect": false
+        },
+        {
+          "text": "Cost Center menu",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of Costing?",
+      "answerOptions": [
+        {
+          "text": "Track production or service costs",
+          "isCorrect": true
+        },
+        {
+          "text": "Track internet usage",
+          "isCorrect": false
+        },
+        {
+          "text": "Manage passwords",
+          "isCorrect": false
+        },
+        {
+          "text": "Create logos",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "How do you generate a Sales Register?",
+      "answerOptions": [
+        {
+          "text": "Display > Statutory Reports > GST > Sales Register",
+          "isCorrect": true
+        },
+        {
+          "text": "Banking > Sales",
+          "isCorrect": false
+        },
+        {
+          "text": "Payroll > Sales",
+          "isCorrect": false
+        },
+        {
+          "text": "Inventory > GST",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a Journal Entry used for?",
+      "answerOptions": [
+        {
+          "text": "Non-cash and adjustment transactions",
+          "isCorrect": true
+        },
+        {
+          "text": "Cash withdrawals only",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock counting",
+          "isCorrect": false
+        },
+        {
+          "text": "Employee attendance",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which formats can Tally use for import/export?",
+      "answerOptions": [
+        {
+          "text": "XML and Excel",
+          "isCorrect": true
+        },
+        {
+          "text": "JPEG and PNG",
+          "isCorrect": false
+        },
+        {
+          "text": "MP3 and WAV",
+          "isCorrect": false
+        },
+        {
+          "text": "HTML only",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is Tally Vault?",
+      "answerOptions": [
+        {
+          "text": "Data encryption and security feature",
+          "isCorrect": true
+        },
+        {
+          "text": "Payroll module",
+          "isCorrect": false
+        },
+        {
+          "text": "Inventory report",
+          "isCorrect": false
+        },
+        {
+          "text": "Voucher printer",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a Cash account used for?",
+      "answerOptions": [
+        {
+          "text": "Physical cash transactions",
+          "isCorrect": true
+        },
+        {
+          "text": "Bank transfers only",
+          "isCorrect": false
+        },
+        {
+          "text": "GST filing",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock valuation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a Contra entry used for?",
+      "answerOptions": [
+        {
+          "text": "Cash and bank account transactions",
+          "isCorrect": true
+        },
+        {
+          "text": "Purchase returns",
+          "isCorrect": false
+        },
+        {
+          "text": "Salary payments only",
+          "isCorrect": false
+        },
+        {
+          "text": "GST adjustments",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is Tally.NET?",
+      "answerOptions": [
+        {
+          "text": "Remote access and online services",
+          "isCorrect": true
+        },
+        {
+          "text": "Tax calculator only",
+          "isCorrect": false
+        },
+        {
+          "text": "Inventory item",
+          "isCorrect": false
+        },
+        {
+          "text": "Ledger group",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a Ledger?",
+      "answerOptions": [
+        {
+          "text": "Account used to record transactions",
+          "isCorrect": true
+        },
+        {
+          "text": "Stock category",
+          "isCorrect": false
+        },
+        {
+          "text": "Report format",
+          "isCorrect": false
+        },
+        {
+          "text": "Tax code",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Can Tally manage multiple companies?",
+      "answerOptions": [
+        {
+          "text": "Yes, multiple companies can be maintained",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "isCorrect": false
+        },
+        {
+          "text": "Only two companies",
+          "isCorrect": false
+        },
+        {
+          "text": "Only one company",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "How are expenses tracked in Tally?",
+      "answerOptions": [
+        {
+          "text": "Using expense ledgers and vouchers",
+          "isCorrect": true
+        },
+        {
+          "text": "Using stock items",
+          "isCorrect": false
+        },
+        {
+          "text": "Using GST reports",
+          "isCorrect": false
+        },
+        {
+          "text": "Using backups",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the Day Book?",
+      "answerOptions": [
+        {
+          "text": "Report of daily transactions",
+          "isCorrect": true
+        },
+        {
+          "text": "Stock valuation report",
+          "isCorrect": false
+        },
+        {
+          "text": "Payroll register",
+          "isCorrect": false
+        },
+        {
+          "text": "Bank statement",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What taxes can Tally manage?",
+      "answerOptions": [
+        {
+          "text": "VAT, CST and GST",
+          "isCorrect": true
+        },
+        {
+          "text": "Property tax only",
+          "isCorrect": false
+        },
+        {
+          "text": "Road tax only",
+          "isCorrect": false
+        },
+        {
+          "text": "Income tax only",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which report is useful for financial analysis?",
+      "answerOptions": [
+        {
+          "text": "Profit & Loss Statement",
+          "isCorrect": true
+        },
+        {
+          "text": "Stock Item List",
+          "isCorrect": false
+        },
+        {
+          "text": "User Log",
+          "isCorrect": false
+        },
+        {
+          "text": "Backup Report",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is Inventory Valuation?",
+      "answerOptions": [
+        {
+          "text": "Determining value of stock in hand",
+          "isCorrect": true
+        },
+        {
+          "text": "Counting employees",
+          "isCorrect": false
+        },
+        {
+          "text": "Calculating GST",
+          "isCorrect": false
+        },
+        {
+          "text": "Managing passwords",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a Reversal Journal Entry?",
+      "answerOptions": [
+        {
+          "text": "An entry used to reverse previous entries",
+          "isCorrect": true
+        },
+        {
+          "text": "A purchase order",
+          "isCorrect": false
+        },
+        {
+          "text": "A stock adjustment",
+          "isCorrect": false
+        },
+        {
+          "text": "A GST return",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "How is a Purchase Return recorded?",
+      "answerOptions": [
+        {
+          "text": "Using a Purchase Return voucher",
+          "isCorrect": true
+        },
+        {
+          "text": "Payment voucher",
+          "isCorrect": false
+        },
+        {
+          "text": "Contra voucher",
+          "isCorrect": false
+        },
+        {
+          "text": "Receipt voucher",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What are Tally Reports?",
+      "answerOptions": [
+        {
+          "text": "Financial, inventory and taxation reports",
+          "isCorrect": true
+        },
+        {
+          "text": "Programming reports",
+          "isCorrect": false
+        },
+        {
+          "text": "Network reports",
+          "isCorrect": false
+        },
+        {
+          "text": "Graphic reports",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is Data Synchronization?",
+      "answerOptions": [
+        {
+          "text": "Syncing data between multiple systems",
+          "isCorrect": true
+        },
+        {
+          "text": "Deleting duplicate files",
+          "isCorrect": false
+        },
+        {
+          "text": "Printing reports",
+          "isCorrect": false
+        },
+        {
+          "text": "Creating ledgers",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is Tally Customization?",
+      "answerOptions": [
+        {
+          "text": "Modifying Tally for business requirements",
+          "isCorrect": true
+        },
+        {
+          "text": "Changing GST rates only",
+          "isCorrect": false
+        },
+        {
+          "text": "Creating bank accounts",
+          "isCorrect": false
+        },
+        {
+          "text": "Deleting companies",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "How do you set up a Fixed Asset?",
+      "answerOptions": [
+        {
+          "text": "Create a ledger under Fixed Assets group",
+          "isCorrect": true
+        },
+        {
+          "text": "Create a sales voucher",
+          "isCorrect": false
+        },
+        {
+          "text": "Create a stock item",
+          "isCorrect": false
+        },
+        {
+          "text": "Create a receipt voucher",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
