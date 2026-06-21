@@ -1,0 +1,23 @@
+{
+  "quizTitle": "Physics Mock Test 01",
+  "questions": [
+    {
+      "question": "What is the SI unit of Force?",
+      "answerOptions": [
+        { "text": "Newton", "isCorrect": true },
+        { "text": "Joule", "isCorrect": false },
+        { "text": "Watt", "isCorrect": false },
+        { "text": "Pascal", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Light year is a unit of?",
+      "answerOptions": [
+        { "text": "Time", "isCorrect": false },
+        { "text": "Distance", "isCorrect": true },
+        { "text": "Speed", "isCorrect": false },
+        { "text": "Intensity", "isCorrect": false }
+      ]
+    }
+  ]
+}
