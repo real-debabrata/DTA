@@ -1,0 +1,425 @@
+{
+  "quizTitle": "Tally Ledgers and Groups Quiz",
+  "questions": [
+    {
+      "question": "Under which group should 'Accrued Income' be classified in Tally?",
+      "answerOptions": [
+        {
+          "text": "Current Assets",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Incomes",
+          "isCorrect": false
+        },
+        {
+          "text": "Direct Incomes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Advertisement Payable' falls under which Tally group?",
+      "answerOptions": [
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Suspense Account",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which group should 'Bad Debts Received' be categorized under?",
+      "answerOptions": [
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Incomes",
+          "isCorrect": true
+        },
+        {
+          "text": "Provisions",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Bank Overdraft' belongs to which specific Tally group?",
+      "answerOptions": [
+        {
+          "text": "Bank Account",
+          "isCorrect": false
+        },
+        {
+          "text": "Loans & Liabilities",
+          "isCorrect": false
+        },
+        {
+          "text": "Bank OD",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Under which group is a proprietor's 'Drawing' classified?",
+      "answerOptions": [
+        {
+          "text": "Capital Account",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Assets",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Carriage on Sales' is classified under which of the following groups?",
+      "answerOptions": [
+        {
+          "text": "Direct Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": true
+        },
+        {
+          "text": "Sales Account",
+          "isCorrect": false
+        },
+        {
+          "text": "Purchase Account",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Coal & Fuel' or 'Coal, Gas & Water of Factory' comes under which group?",
+      "answerOptions": [
+        {
+          "text": "Direct Expenses",
+          "isCorrect": true
+        },
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock in Hand",
+          "isCorrect": false
+        },
+        {
+          "text": "Fixed Assets",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Depreciation Reserve' is classified under which group?",
+      "answerOptions": [
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Fixed Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": true
+        },
+        {
+          "text": "Provisions",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Where should a 'Difference in Trial Balance (Dr or Cr)' be temporarily placed?",
+      "answerOptions": [
+        {
+          "text": "Capital Account",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": false
+        },
+        {
+          "text": "Suspense Account",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "How is 'Export Duty' categorized in Tally?",
+      "answerOptions": [
+        {
+          "text": "Direct Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": true
+        },
+        {
+          "text": "Duties & Taxes",
+          "isCorrect": false
+        },
+        {
+          "text": "Purchase Account",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Goods Sent on Consignment' should be grouped under which account group?",
+      "answerOptions": [
+        {
+          "text": "Sales Account",
+          "isCorrect": true
+        },
+        {
+          "text": "Purchase Account",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock in Hand",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "If the proprietor pays 'Income Tax', under which account is it classified?",
+      "answerOptions": [
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": false
+        },
+        {
+          "text": "Duties & Taxes",
+          "isCorrect": false
+        },
+        {
+          "text": "Capital Account",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "'Loose Tools' are classified under which Tally group?",
+      "answerOptions": [
+        {
+          "text": "Fixed Assets",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock in Hand",
+          "isCorrect": false
+        },
+        {
+          "text": "Direct Expenses",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Investments like 'Master Plus' or 'Mutual Fund' belong to which group?",
+      "answerOptions": [
+        {
+          "text": "Current Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Investment",
+          "isCorrect": true
+        },
+        {
+          "text": "Fixed Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Bank Account",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Octroi' is an example of which type of ledger group?",
+      "answerOptions": [
+        {
+          "text": "Direct Expenses",
+          "isCorrect": true
+        },
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Duties & Taxes",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Under which group should 'Prepaid Expenses' be classified?",
+      "answerOptions": [
+        {
+          "text": "Current Assets",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Loans & Liabilities",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Provision for Discount on Creditors' is classified under:",
+      "answerOptions": [
+        {
+          "text": "Indirect Incomes",
+          "isCorrect": true
+        },
+        {
+          "text": "Indirect Expenses",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": false
+        },
+        {
+          "text": "Sundry Creditors",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Return Inward' is grouped under which Tally group?",
+      "answerOptions": [
+        {
+          "text": "Sales Account",
+          "isCorrect": true
+        },
+        {
+          "text": "Purchase Account",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock in Hand",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Return Outward' belongs to which Tally group?",
+      "answerOptions": [
+        {
+          "text": "Purchase Account",
+          "isCorrect": true
+        },
+        {
+          "text": "Sales Account",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock in Hand",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Liabilities",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "'Unearned Income' should be classified under which group?",
+      "answerOptions": [
+        {
+          "text": "Current Liabilities",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Assets",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Incomes",
+          "isCorrect": false
+        },
+        {
+          "text": "Direct Incomes",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
