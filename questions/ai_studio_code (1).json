@@ -1,0 +1,1626 @@
+{
+  "quizTitle": "Tally Prime Comprehensive Core Functionalities Quiz",
+  "totalQuestions": 60,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "question": "What is the shortcut key to quit or exit Tally Prime directly when you are on the Gateway of Tally screen?",
+      "answerOptions": [
+        {
+          "text": "Ctrl + Q",
+          "rationale": "Pressing Ctrl + Q from the Gateway of Tally immediately exits the application without requiring multiple confirmations.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + E",
+          "rationale": "Ctrl + E is the default shortcut to export reports or vouchers, not to quit the software.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + X",
+          "rationale": "Alt + X is used to cancel a voucher inside transaction entry screens, rather than exiting the program.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ctrl + Alt + Del",
+          "rationale": "This is a global Windows shortcut to open the Task Manager or secure sign-out options, not a localized Tally command.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think of the first letter of the word 'Quit' paired with the Control key modifier."
+    },
+    {
+      "questionNumber": 2,
+      "question": "Which function key is used to open the 'Configuration' menu, which changes active fields and settings for a specific active screen in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "F11",
+          "rationale": "F11 opens the global Company Features menu, whereas F12 modifies specific fields and layout options on the active screen.",
+          "isCorrect": false
+        },
+        {
+          "text": "F12",
+          "rationale": "F12 is the universal keyboard shortcut for 'Configure' in Tally, altering settings locally for whatever report or voucher is currently open.",
+          "isCorrect": true
+        },
+        {
+          "text": "F1",
+          "rationale": "F1 is used to open Tally Help and documentation resources.",
+          "isCorrect": false
+        },
+        {
+          "text": "F10",
+          "rationale": "F10 is used to view the list of alternative or other vouchers during transaction entry.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This is the highest-numbered standard function key on a standard keyboard layout."
+    },
+    {
+      "questionNumber": 3,
+      "question": "Under which primary ledger group should 'Outstanding Salaries' (salaries due but not yet paid) be classified?",
+      "answerOptions": [
+        {
+          "text": "Indirect Expenses",
+          "rationale": "While standard salaries paid are indirect expenses, unpaid 'Outstanding Salaries' represent a liability on the Balance Sheet.",
+          "isCorrect": false
+        },
+        {
+          "text": "Provisions",
+          "rationale": "Provisions are for estimated or undetermined future losses, whereas outstanding salaries are a definite, known liability.",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Liabilities",
+          "rationale": "Outstanding expenses represent short-term financial obligations that the business must pay soon, placing them under Current Liabilities.",
+          "isCorrect": true
+        },
+        {
+          "text": "Suspense Account",
+          "rationale": "Suspense accounts hold temporary transactions where the correct account is unknown, which is not the case for known salaries.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This group covers short-term debts or obligations that the business is expected to settle within the current financial year."
+    },
+    {
+      "questionNumber": 4,
+      "question": "Which shortcut key allows you to edit or alter a master (such as a ledger or stock item) directly from a voucher entry screen?",
+      "answerOptions": [
+        {
+          "text": "Alt + C",
+          "rationale": "Alt + C is used to create a new master on-the-fly, not to edit or alter an existing one.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ctrl + Enter",
+          "rationale": "Selecting a ledger name inside a voucher and pressing Ctrl + Enter opens its master alteration screen without exiting the transaction.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + A",
+          "rationale": "Ctrl + A is used to instantly accept and save the active voucher or configuration screen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + D",
+          "rationale": "Alt + D is used to delete an item or voucher, rather than opening its edit screen.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This shortcut combines the Control key with the key used to submit or confirm actions."
+    },
+    {
+      "questionNumber": 5,
+      "question": "How many pre-defined primary and secondary ledger groups are created by default in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "15",
+          "rationale": "15 is only the number of primary groups; it does not include the 13 secondary sub-groups.",
+          "isCorrect": false
+        },
+        {
+          "text": "30",
+          "rationale": "While users can create as many custom groups as they want, the default number of pre-defined groups is 28.",
+          "isCorrect": false
+        },
+        {
+          "text": "24",
+          "rationale": "24 is incorrect; Tally has had 28 default groups across its modern versions to cover standard accounting structures.",
+          "isCorrect": false
+        },
+        {
+          "text": "28",
+          "rationale": "Tally Prime comes with 28 pre-defined groups by default, consisting of 15 primary groups and 13 secondary (sub-groups).",
+          "isCorrect": true
+        }
+      ],
+      "hint": "This number is split into fifteen primary and thirteen secondary categories."
+    },
+    {
+      "questionNumber": 6,
+      "question": "Which voucher type is used to record transferring funds from the company's main Bank Account to its Cash-in-hand account?",
+      "answerOptions": [
+        {
+          "text": "Contra Voucher (F4)",
+          "rationale": "Contra vouchers are reserved for internal cash and bank transactions that do not involve external payments or receipts.",
+          "isCorrect": true
+        },
+        {
+          "text": "Payment Voucher (F5)",
+          "rationale": "Payment vouchers are used for cash or bank outflows to external parties, not for internal transfers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Receipt Voucher (F6)",
+          "rationale": "Receipt vouchers record incoming funds from external customers, capital, or other external sources.",
+          "isCorrect": false
+        },
+        {
+          "text": "Journal Voucher (F7)",
+          "rationale": "Journal vouchers are for non-cash adjustment entries and do not allow cash or bank ledger selections in standard modes.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This voucher is used for internal cash-to-bank or bank-to-cash movements and is opened using F4."
+    },
+    {
+      "questionNumber": 7,
+      "question": "What is the shortcut key used to instantly save or accept any voucher or configuration screen in Tally Prime without pressing Enter repeatedly?",
+      "answerOptions": [
+        {
+          "text": "Ctrl + S",
+          "rationale": "Ctrl + S is the standard save command in many Windows applications, but Tally Prime uses Ctrl + A for 'Accept'.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + S",
+          "rationale": "Alt + S is used to open the Stock Query report, not to save active screens.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ctrl + A",
+          "rationale": "Ctrl + A stands for 'Accept' in Tally Prime, allowing you to instantly save and close any active creation or editing screen.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + Enter",
+          "rationale": "Ctrl + Enter is used to alter a selected ledger master from within a voucher, rather than saving the voucher.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think of the first letter of the word 'Accept' combined with the Control key."
+    },
+    {
+      "questionNumber": 8,
+      "question": "Under which pre-defined ledger group should 'Purchase Returns' be classified?",
+      "answerOptions": [
+        {
+          "text": "Purchase Accounts",
+          "rationale": "Purchase Returns must be grouped under 'Purchase Accounts' to ensure they correctly offset and reduce your net purchases in the Trading Account.",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Liabilities",
+          "rationale": "While returning goods reduces what you owe to suppliers, the ledger itself is classified under Purchase Accounts to offset trading values.",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "rationale": "Purchase Returns are directly related to trading goods, making them a direct offset to Purchases rather than an indirect operating expense.",
+          "isCorrect": false
+        },
+        {
+          "text": "Direct Expenses",
+          "rationale": "Purchase Returns are an offset to purchase costs, so they are grouped under Purchase Accounts rather than as direct manufacturing expenses.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This ledger is grouped with your regular purchases to show the net purchase amount on your financial statements."
+    },
+    {
+      "questionNumber": 9,
+      "question": "Which ledger group should be used for 'Bad Debts' (uncollectible customer balances) in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Current Assets",
+          "rationale": "Bad debts are uncollectible balances being removed from assets, so they cannot be classified as active assets themselves.",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "rationale": "Bad Debts represent an irrecoverable business loss and are written off as an operational cost under 'Indirect Expenses' in the Profit & Loss statement.",
+          "isCorrect": true
+        },
+        {
+          "text": "Provisions",
+          "rationale": "Provisions are for estimated future bad debts, whereas 'Bad Debts' represents actual losses that are written off.",
+          "isCorrect": false
+        },
+        {
+          "text": "Direct Expenses",
+          "rationale": "Direct expenses are related to manufacturing or purchase costs, while bad debts are an administrative credit loss.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "These losses are written off in the Profit & Loss statement as general business operating expenses."
+    },
+    {
+      "questionNumber": 10,
+      "question": "How do you change the date of a transaction inside a voucher screen in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Press F2",
+          "rationale": "F2 is the standard function key used to change the date of the active voucher during transaction entry.",
+          "isCorrect": true
+        },
+        {
+          "text": "Press Alt + F2",
+          "rationale": "Alt + F2 is used to change the entire financial period of the company, not the date of an individual transaction.",
+          "isCorrect": false
+        },
+        {
+          "text": "Press Ctrl + F2",
+          "rationale": "Ctrl + F2 does not change transaction dates and has other secondary purposes depending on the active screen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Double-click on the Gateway of Tally calendar",
+          "rationale": "Tally Prime is designed for rapid keyboard entry; you change transaction dates using the F2 key inside the voucher screen.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This is the second standard function key on the top row of your keyboard."
+    },
+    {
+      "questionNumber": 11,
+      "question": "Under which ledger group should 'Interest Received on Bank Fixed Deposit' be classified?",
+      "answerOptions": [
+        {
+          "text": "Direct Incomes",
+          "rationale": "Direct Incomes are reserved for revenue from core business operations, not investment interest.",
+          "isCorrect": false
+        },
+        {
+          "text": "Investments",
+          "rationale": "The Fixed Deposit itself is classified under Investments, but the interest earned is an income ledger that must be grouped under Indirect Incomes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Incomes",
+          "rationale": "Interest earned on investments is secondary income not related to core sales, classifying it as 'Indirect Incomes' on the Profit & Loss statement.",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Assets",
+          "rationale": "While accrued interest can be an asset, the interest income ledger itself must be grouped under Indirect Incomes.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This ledger tracks earnings that come from sources outside of your core business sales operations."
+    },
+    {
+      "questionNumber": 12,
+      "question": "Which voucher type is used to record credit purchases of goods intended for resale?",
+      "answerOptions": [
+        {
+          "text": "Purchase Voucher (F9)",
+          "rationale": "F9 Purchase is the standard voucher type used to record all incoming credit and cash purchases of trading goods or services.",
+          "isCorrect": true
+        },
+        {
+          "text": "Journal Voucher (F7)",
+          "rationale": "Journal vouchers are for non-cash asset transactions and adjustments, not for standard inventory purchases.",
+          "isCorrect": false
+        },
+        {
+          "text": "Receipt Note (Alt + F9)",
+          "rationale": "Receipt Notes track the physical delivery of goods, whereas the F9 Purchase voucher records the actual financial transaction.",
+          "isCorrect": false
+        },
+        {
+          "text": "Payment Voucher (F5)",
+          "rationale": "Payment vouchers are used for cash or bank outflows, not for recording purchases on credit.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This voucher records incoming purchases and is opened using F9."
+    },
+    {
+      "questionNumber": 13,
+      "question": "If you pay cash to a supplier (Sundry Creditor) to settle an invoice, which voucher type should you use?",
+      "answerOptions": [
+        {
+          "text": "Receipt Voucher (F6)",
+          "rationale": "Receipt vouchers are for incoming funds, whereas paying a supplier involves a cash outflow.",
+          "isCorrect": false
+        },
+        {
+          "text": "Payment Voucher (F5)",
+          "rationale": "All cash or bank outflows to external parties, including payments to suppliers, must be recorded in a Payment Voucher (F5).",
+          "isCorrect": true
+        },
+        {
+          "text": "Contra Voucher (F4)",
+          "rationale": "Contra vouchers are strictly for internal fund transfers, such as cash-to-bank, not for paying suppliers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Journal Voucher (F7)",
+          "rationale": "Journal vouchers are for non-cash adjustments, so they cannot be used for transactions that involve cash payments.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This transaction involves a cash outflow to an external party and is opened using F5."
+    },
+    {
+      "questionNumber": 14,
+      "question": "What is the correct menu path to view the 'Trial Balance' from the Gateway of Tally screen in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Gateway of Tally > Create > Trial Balance",
+          "rationale": "The 'Create' menu is used for setting up masters, not for viewing financial reports.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gateway of Tally > Display More Reports > Trial Balance",
+          "rationale": "In Tally Prime's simplified menu, the Trial Balance is located under the 'Display More Reports' menu.",
+          "isCorrect": true
+        },
+        {
+          "text": "Gateway of Tally > Alter > Trial Balance",
+          "rationale": "The 'Alter' menu is used to modify existing masters, not to view financial reports.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gateway of Tally > Voucher > Trial Balance",
+          "rationale": "The 'Voucher' screen is used to enter transactions, not to view reports.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "You must go to the main 'Display' menu to view statutory, inventory, and financial accounting reports."
+    },
+    {
+      "questionNumber": 15,
+      "question": "Which voucher type should be used to record the credit sale of old office furniture (not standard inventory)?",
+      "answerOptions": [
+        {
+          "text": "Journal Voucher (F7)",
+          "rationale": "Since the sale is on credit and involves a fixed asset rather than standard inventory, it must be recorded using a Journal Voucher (F7).",
+          "isCorrect": true
+        },
+        {
+          "text": "Sales Voucher (F8)",
+          "rationale": "F8 Sales is designed for selling standard trading goods, not for selling off company assets on credit.",
+          "isCorrect": false
+        },
+        {
+          "text": "Receipt Voucher (F6)",
+          "rationale": "Receipt vouchers are used when you receive immediate payment, not for sales made on credit.",
+          "isCorrect": false
+        },
+        {
+          "text": "Payment Voucher (F5)",
+          "rationale": "Payment vouchers are for cash outflows, which is the opposite of selling an asset.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This transaction is a credit sale of a fixed asset, which does not involve cash or standard trading stock."
+    },
+    {
+      "questionNumber": 16,
+      "question": "Under which ledger group does 'Carriage Inward' (freight charges on purchases) fall?",
+      "answerOptions": [
+        {
+          "text": "Direct Expenses",
+          "rationale": "Carriage Inward is directly related to acquiring goods for production or sale, making it a Direct Expense on the Trading Account.",
+          "isCorrect": true
+        },
+        {
+          "text": "Indirect Expenses",
+          "rationale": "Indirect expenses are for general operating costs like Carriage Outward (freight on sales), whereas carriage on purchases is a direct cost.",
+          "isCorrect": false
+        },
+        {
+          "text": "Purchase Accounts",
+          "rationale": "Carriage Inward is a service cost associated with purchases, but it is created as its own ledger under Direct Expenses.",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Assets",
+          "rationale": "Carriage Inward is an expense that is closed out to the Trading Account, not a balance sheet asset.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This expense is directly related to purchasing goods and is recorded in the Trading Account."
+    },
+    {
+      "questionNumber": 17,
+      "question": "What is the shortcut key to toggle between 'Condensed' and 'Detailed' views when viewing reports like the Balance Sheet or Profit & Loss?",
+      "answerOptions": [
+        {
+          "text": "Alt + F5",
+          "rationale": "In Tally Prime, pressing Alt + F5 (or Alt + F1) toggles reports between a simplified condensed view and a detailed view showing all sub-ledgers.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + F5",
+          "rationale": "Ctrl + F5 is used for opening the Sales Order voucher, not for report viewing modes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + D",
+          "rationale": "Alt + D is used for deleting masters or vouchers, not for expanding report views.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + C",
+          "rationale": "Alt + C is used to create a master or a column in reports, but it does not toggle detailed views.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This shortcut is commonly interchangeable with Alt + F1 in many Tally versions."
+    },
+    {
+      "questionNumber": 18,
+      "question": "Which voucher type is used to record a 'Sales Return' from a customer?",
+      "answerOptions": [
+        {
+          "text": "Debit Note (Alt + F5)",
+          "rationale": "Debit Notes are used for Purchase Returns to suppliers, not Sales Returns from customers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Credit Note (Alt + F6)",
+          "rationale": "A Credit Note is issued to a customer to reduce their balance due to returned goods, making it the correct voucher for Sales Returns.",
+          "isCorrect": true
+        },
+        {
+          "text": "Journal Voucher (F7)",
+          "rationale": "While adjustments can be made here, the official voucher for returning goods in inventory-integrated accounting is the Credit Note.",
+          "isCorrect": false
+        },
+        {
+          "text": "Payment Voucher (F5)",
+          "rationale": "Payment vouchers record cash outflows, not the return of physical inventory items.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This voucher reduces the customer's debt and is represented by Alt + F6."
+    },
+    {
+      "questionNumber": 19,
+      "question": "What is the primary purpose of 'Cost Centers' in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "To track inventory by location",
+          "rationale": "Inventory locations are tracked using 'Godowns', not Cost Centers.",
+          "isCorrect": false
+        },
+        {
+          "text": "To allocate expenses/incomes to specific departments or projects",
+          "rationale": "Cost Centers allow you to break down expenses (like salaries) into specific departments or branches for better reporting.",
+          "isCorrect": true
+        },
+        {
+          "text": "To calculate GST on sales",
+          "rationale": "GST is calculated based on Tax Rates and Ledger classifications, not Cost Centers.",
+          "isCorrect": false
+        },
+        {
+          "text": "To reconcile bank statements",
+          "rationale": "Bank reconciliation is a separate utility found within the Banking menu.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think of breaking down a single salary expense into 'Sales Dept' and 'Marketing Dept'."
+    },
+    {
+      "questionNumber": 20,
+      "question": "Which shortcut key is used to open the 'Go To' feature, allowing you to search for any report without leaving your current screen?",
+      "answerOptions": [
+        {
+          "text": "Alt + G",
+          "rationale": "Alt + G 'Go To' is a flagship feature of Tally Prime that allows seamless navigation to any report from anywhere in the software.",
+          "isCorrect": true
+        },
+        {
+          "text": "Alt + K",
+          "rationale": "Alt + K is used to access the Company menu options.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + Y",
+          "rationale": "Alt + Y is used for the Data menu (Backup, Restore, etc.).",
+          "isCorrect": false
+        },
+        {
+          "text": "Ctrl + G",
+          "rationale": "Ctrl + G is the 'Switch To' feature, which is similar but closes the current task, whereas Alt + G keeps it open.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This feature is represented by a button in the center of the top bar in Tally Prime."
+    },
+    {
+      "questionNumber": 21,
+      "question": "Under which ledger group should 'Depreciation' be classified?",
+      "answerOptions": [
+        {
+          "text": "Fixed Assets",
+          "rationale": "Fixed Assets is for the assets being depreciated, while Depreciation itself is the expense ledger.",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "rationale": "Depreciation is a non-cash operating expense that reduces the net profit on the Profit & Loss statement.",
+          "isCorrect": true
+        },
+        {
+          "text": "Direct Expenses",
+          "rationale": "Direct expenses are related to production costs, whereas depreciation is generally an administrative overhead.",
+          "isCorrect": false
+        },
+        {
+          "text": "Provisions",
+          "rationale": "While 'Provision for Depreciation' is a group, the 'Depreciation' expense ledger belongs under Indirect Expenses.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is an annual non-cash expense shown in the Profit & Loss statement."
+    },
+    {
+      "questionNumber": 22,
+      "question": "To create a 'Discount Allowed' ledger that reduces the invoice value, what group should you typically use?",
+      "answerOptions": [
+        {
+          "text": "Indirect Expenses",
+          "rationale": "Discount Allowed is a cost to the business incurred during the sales process, classifying it as an Indirect Expense.",
+          "isCorrect": true
+        },
+        {
+          "text": "Indirect Incomes",
+          "rationale": "This would be for 'Discount Received' from suppliers, not discounts given to customers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sales Accounts",
+          "rationale": "While it relates to sales, it is standard practice to track it as an expense or a separate ledger in the Profit & Loss.",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Assets",
+          "rationale": "Discounts are not assets; they are reductions in revenue or increases in expense.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is an expense incurred when you allow customers to pay less than the full price."
+    },
+    {
+      "questionNumber": 23,
+      "question": "What is the shortcut key to delete a selected voucher or a master in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Alt + D",
+          "rationale": "Alt + D is the universal shortcut in Tally for deleting a master (if not in use) or a transaction voucher.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + D",
+          "rationale": "Ctrl + D does not trigger the delete command in Tally Prime.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + X",
+          "rationale": "Alt + X is for canceling a voucher, which keeps the voucher number but clears the values.",
+          "isCorrect": false
+        },
+        {
+          "text": "Delete Key",
+          "rationale": "Tally uses Alt-based shortcuts for major actions; the standalone Delete key is not the standard command.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Press Alt plus the first letter of the word 'Delete'."
+    },
+    {
+      "questionNumber": 24,
+      "question": "Which ledger is created by default in every new company in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Bank Account",
+          "rationale": "Bank accounts must be created manually by the user as bank details vary.",
+          "isCorrect": false
+        },
+        {
+          "text": "Profit & Loss A/c",
+          "rationale": "Tally automatically creates the 'Profit & Loss A/c' (under Primary) and the 'Cash' ledger in every new company.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sales Account",
+          "rationale": "Sales ledgers are created by the user based on their specific accounting needs.",
+          "isCorrect": false
+        },
+        {
+          "text": "Capital Account",
+          "rationale": "The user must create the owner's capital account manually.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is one of only two ledgers that Tally Prime provides 'out of the box'."
+    },
+    {
+      "questionNumber": 25,
+      "question": "Which key do you press to change the company's financial period (e.g., from 1-Apr to 31-Mar)?",
+      "answerOptions": [
+        {
+          "text": "F2",
+          "rationale": "F2 changes the date of a single voucher.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + F2",
+          "rationale": "Alt + F2 allows you to set the 'Change Period' range for the entire company data being viewed.",
+          "isCorrect": true
+        },
+        {
+          "text": "F3",
+          "rationale": "F3 is used to switch between different loaded companies.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + F3",
+          "rationale": "Alt + F3 in Tally Prime opens the 'Select Company' list.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This combines the voucher date key with the Alt modifier to change a range of time."
+    },
+    {
+      "questionNumber": 26,
+      "question": "Under which group should 'Petty Cash' be classified?",
+      "answerOptions": [
+        {
+          "text": "Bank Accounts",
+          "rationale": "Petty Cash is physical money held in the office, not funds in a banking institution.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cash-in-Hand",
+          "rationale": "Petty cash refers to small amounts of physical currency kept for minor expenses, placing it under the Cash-in-Hand group.",
+          "isCorrect": true
+        },
+        {
+          "text": "Indirect Expenses",
+          "rationale": "The expenses paid *from* petty cash are indirect expenses, but the petty cash account itself is an asset.",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Liabilities",
+          "rationale": "Cash is an asset, not an obligation to pay.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It belongs to the same group as the primary 'Cash' ledger."
+    },
+    {
+      "questionNumber": 27,
+      "question": "What does the 'Credit' side represent for a 'Sundry Creditor' ledger in the Balance Sheet?",
+      "answerOptions": [
+        {
+          "text": "Money we are owed",
+          "rationale": "Money we are owed is represented by Sundry Debtors with Debit balances.",
+          "isCorrect": false
+        },
+        {
+          "text": "Money we owe to a supplier",
+          "rationale": "Sundry Creditors with credit balances represent liabilities—specifically, money the business owes to suppliers for goods or services.",
+          "isCorrect": true
+        },
+        {
+          "text": "The business's total sales",
+          "rationale": "Sales are recorded in the Profit & Loss, not as a balance for a specific creditor.",
+          "isCorrect": false
+        },
+        {
+          "text": "The company's bank balance",
+          "rationale": "Bank balances are generally assets with debit balances.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Creditors are people or businesses that have provided goods on credit and are waiting for payment."
+    },
+    {
+      "questionNumber": 28,
+      "question": "Which report shows the summarized financial position of a company on a specific date?",
+      "answerOptions": [
+        {
+          "text": "Profit & Loss Account",
+          "rationale": "The P&L shows performance over a period, not the financial position on a specific day.",
+          "isCorrect": false
+        },
+        {
+          "text": "Balance Sheet",
+          "rationale": "The Balance Sheet provides a snapshot of assets, liabilities, and equity at a specific point in time.",
+          "isCorrect": true
+        },
+        {
+          "text": "Trial Balance",
+          "rationale": "The Trial Balance is a list of all ledger balances to ensure debits equal credits, but it is not the primary 'financial position' statement.",
+          "isCorrect": false
+        },
+        {
+          "text": "Day Book",
+          "rationale": "The Day Book lists daily transactions in chronological order.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This report follows the accounting equation: Assets = Liabilities + Equity."
+    },
+    {
+      "questionNumber": 29,
+      "question": "Which shortcut key is used to open the 'Calculator' panel in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Ctrl + C",
+          "rationale": "Ctrl + C is used for copying text in some areas, but not for the calculator.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ctrl + N",
+          "rationale": "Ctrl + N is the traditional shortcut to activate the calculator panel at the bottom of the Tally screen.",
+          "isCorrect": true
+        },
+        {
+          "text": "Alt + C",
+          "rationale": "Alt + C opens the 'secondary' calculator while in an amount field, but Ctrl + N opens the main panel.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ctrl + Alt + C",
+          "rationale": "This is not a standard Tally shortcut for the calculator.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This shortcut is commonly associated with 'New' in other programs, but in Tally, it opens the calculation area."
+    },
+    {
+      "questionNumber": 30,
+      "question": "In Tally Prime, what is a 'Stock Group' used for?",
+      "answerOptions": [
+        {
+          "text": "To classify items of a similar nature",
+          "rationale": "Stock Groups allow you to categorize items (e.g., 'Electronics', 'Groceries') for better inventory management and reporting.",
+          "isCorrect": true
+        },
+        {
+          "text": "To identify the location of items",
+          "rationale": "Locations are managed through Godowns/Locations, not groups.",
+          "isCorrect": false
+        },
+        {
+          "text": "To define the measurement unit (kg, pcs)",
+          "rationale": "This is handled by 'Units of Measure'.",
+          "isCorrect": false
+        },
+        {
+          "text": "To track the supplier of the item",
+          "rationale": "Suppliers are tracked through Ledgers and Purchase Vouchers.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think of it as a folder for similar products."
+    },
+    {
+      "questionNumber": 31,
+      "question": "Which voucher type should be used for 'Cash Sales'?",
+      "answerOptions": [
+        {
+          "text": "Receipt Voucher (F6)",
+          "rationale": "F6 is for general receipts; while cash comes in, F8 is preferred for sales to track inventory and GST correctly.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sales Voucher (F8)",
+          "rationale": "F8 is used for both credit and cash sales. In a cash sale, the 'Party A/c name' is simply 'Cash'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Contra Voucher (F4)",
+          "rationale": "Contra is only for internal bank/cash transfers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Journal Voucher (F7)",
+          "rationale": "Journal vouchers do not involve cash/bank ledgers in standard mode.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Regardless of whether it is cash or credit, if you are selling goods, you use this voucher."
+    },
+    {
+      "questionNumber": 32,
+      "question": "What is 'Bill-wise Details' in Tally Prime primarily used for?",
+      "answerOptions": [
+        {
+          "text": "Calculating GST",
+          "rationale": "GST is calculated based on item rates and tax definitions.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tracking accounts receivable and payable invoice by invoice",
+          "rationale": "Bill-wise details allow you to track which specific invoice a payment belongs to, helping manage age-wise outstanding reports.",
+          "isCorrect": true
+        },
+        {
+          "text": "Creating Stock Items",
+          "rationale": "Stock items are created in the Inventory masters.",
+          "isCorrect": false
+        },
+        {
+          "text": "Printing bank cheques",
+          "rationale": "Cheque printing is part of the banking features.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It helps in knowing exactly which bill is still 'Pending' from a customer."
+    },
+    {
+      "questionNumber": 33,
+      "question": "Under which group should 'Bank O/D' (Overdraft) be classified?",
+      "answerOptions": [
+        {
+          "text": "Bank Accounts",
+          "rationale": "Bank Accounts are for positive balances (Assets), whereas O/D is a liability.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bank OCC/OD",
+          "rationale": "Tally provides specific groups like 'Bank OCC' or 'Bank OD' for accounts that have a credit limit and represent a liability.",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Assets",
+          "rationale": "An overdraft is a debt to the bank, not an asset.",
+          "isCorrect": false
+        },
+        {
+          "text": "Loans (Liability)",
+          "rationale": "While it is a loan, 'Bank OD' is a more specific and correct pre-defined group in Tally.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This group is specifically for bank accounts with negative (credit) balances."
+    },
+    {
+      "questionNumber": 34,
+      "question": "What is the shortcut key to print a voucher or report in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Ctrl + P",
+          "rationale": "Ctrl + P is the standard printing shortcut across Tally Prime for all reports and vouchers.",
+          "isCorrect": true
+        },
+        {
+          "text": "Alt + P",
+          "rationale": "Alt + P opens the print menu in older versions, but Ctrl + P is the primary shortcut in Prime.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ctrl + S",
+          "rationale": "Ctrl + S does not print in Tally.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + I",
+          "rationale": "Alt + I is used to toggle 'Print Preview'.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is the same shortcut used to print in most other Windows applications."
+    },
+    {
+      "questionNumber": 35,
+      "question": "How can you view a list of all transactions entered for a specific day?",
+      "answerOptions": [
+        {
+          "text": "Trial Balance",
+          "rationale": "Trial Balance shows ledger summaries, not daily lists of transactions.",
+          "isCorrect": false
+        },
+        {
+          "text": "Day Book",
+          "rationale": "The Day Book provides a chronological listing of all vouchers recorded on a specific date.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ledger Vouchers",
+          "rationale": "This shows transactions for a single ledger, not all transactions for the whole company.",
+          "isCorrect": false
+        },
+        {
+          "text": "Balance Sheet",
+          "rationale": "The Balance Sheet shows closing balances, not transaction details.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This report is named after a physical book where daily entries are written."
+    },
+    {
+      "questionNumber": 36,
+      "question": "Which of these is NOT a voucher type in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Contra",
+          "rationale": "Contra (F4) is a standard voucher type for bank/cash entries.",
+          "isCorrect": false
+        },
+        {
+          "text": "Journal",
+          "rationale": "Journal (F7) is a standard voucher for adjustment entries.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ledger",
+          "rationale": "A Ledger is a master record, not a voucher type.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sales",
+          "rationale": "Sales (F8) is a standard voucher type.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "One of these is where you store information about a person or account, while the others are for transactions."
+    },
+    {
+      "questionNumber": 37,
+      "question": "What is 'Godown' in Tally Prime terminology?",
+      "answerOptions": [
+        {
+          "text": "A type of tax",
+          "rationale": "Taxation is handled by statutory features.",
+          "isCorrect": false
+        },
+        {
+          "text": "A physical location where stock is stored",
+          "rationale": "Godowns (or Locations) allow users to track inventory across different warehouses or shops.",
+          "isCorrect": true
+        },
+        {
+          "text": "A group for expenses",
+          "rationale": "Expenses are grouped under ledger categories.",
+          "isCorrect": false
+        },
+        {
+          "text": "A bank account type",
+          "rationale": "Bank accounts are under the 'Bank Accounts' group.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is another word for a warehouse."
+    },
+    {
+      "questionNumber": 38,
+      "question": "Under which group should 'Prepaid Rent' be classified?",
+      "answerOptions": [
+        {
+          "text": "Indirect Expenses",
+          "rationale": "Standard Rent is an expense, but 'Prepaid' rent is an asset for the business.",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Assets",
+          "rationale": "Prepaid expenses represent value already paid for but not yet consumed, making them Current Assets.",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Liabilities",
+          "rationale": "Prepaid items are something we own the right to, not something we owe.",
+          "isCorrect": false
+        },
+        {
+          "text": "Fixed Assets",
+          "rationale": "Rent is a short-term benefit, so it is current rather than a long-term fixed asset.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is an expense paid in advance."
+    },
+    {
+      "questionNumber": 39,
+      "question": "Which feature is used to record the transfer of materials from one Godown to another?",
+      "answerOptions": [
+        {
+          "text": "Delivery Note",
+          "rationale": "Delivery notes are for sending goods to customers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Stock Journal (Alt + F7)",
+          "rationale": "The Stock Journal is used for internal stock movements, including godown transfers and production consumption.",
+          "isCorrect": true
+        },
+        {
+          "text": "Purchase Voucher",
+          "rationale": "This is for receiving goods from external suppliers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Physical Stock",
+          "rationale": "This is for verifying and correcting actual stock counts.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is a specialized journal for inventory only, opened with Alt + F7."
+    },
+    {
+      "questionNumber": 40,
+      "question": "What happens if you record a voucher with a date outside the 'Financial Year' defined in Company Masters?",
+      "answerOptions": [
+        {
+          "text": "Tally will delete the voucher automatically",
+          "rationale": "Tally never deletes data without user consent.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tally will accept it without any message",
+          "rationale": "Tally enforces period control to ensure accounting integrity.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tally will show an error 'Date out of Range'",
+          "rationale": "Tally does not allow entries outside the active financial period to prevent data entry errors.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tally will crash",
+          "rationale": "Tally is robust; it will simply show a validation error message.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is a security and accuracy check related to the company's books."
+    },
+    {
+      "questionNumber": 41,
+      "question": "Which shortcut is used to copy text from a field in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "Ctrl + C",
+          "rationale": "In Tally Prime, the standard Windows shortcut Ctrl + C is now supported for copying text.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + Alt + C",
+          "rationale": "This was the shortcut for older versions like Tally.ERP 9, but Prime uses standard Windows shortcuts.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + C",
+          "rationale": "Alt + C is for creating a master on-the-fly.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ctrl + Shift + C",
+          "rationale": "This is not the standard copy shortcut.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Tally Prime adopted many standard Windows shortcuts to make it easier for new users."
+    },
+    {
+      "questionNumber": 42,
+      "question": "To record an 'Owner's Investment' into the business by cash, which voucher is used?",
+      "answerOptions": [
+        {
+          "text": "Payment Voucher (F5)",
+          "rationale": "This is for when the business pays out money.",
+          "isCorrect": false
+        },
+        {
+          "text": "Receipt Voucher (F6)",
+          "rationale": "Whenever money (cash or bank) comes into the business, including capital from the owner, a Receipt Voucher is used.",
+          "isCorrect": true
+        },
+        {
+          "text": "Journal Voucher (F7)",
+          "rationale": "While possible for non-cash capital, F6 is correct for cash investments.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sales Voucher (F8)",
+          "rationale": "Capital is not a sale of goods.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Money is coming into the business bank/cash box."
+    },
+    {
+      "questionNumber": 43,
+      "question": "Under which group should 'Freight Outward' be classified?",
+      "answerOptions": [
+        {
+          "text": "Direct Expenses",
+          "rationale": "Freight Outward is on sales, making it an operating/indirect cost.",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "rationale": "Selling and distribution costs like Freight Outward are categorized as Indirect Expenses in the P&L account.",
+          "isCorrect": true
+        },
+        {
+          "text": "Direct Incomes",
+          "rationale": "Freight Outward is a cost, not an income.",
+          "isCorrect": false
+        },
+        {
+          "text": "Current Assets",
+          "rationale": "Freight is a consumed service expense, not an asset.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This is an expense related to the delivery of goods to customers."
+    },
+    {
+      "questionNumber": 44,
+      "question": "What is the shortcut to 'Cancel' a voucher without deleting it?",
+      "answerOptions": [
+        {
+          "text": "Alt + D",
+          "rationale": "This deletes the voucher completely, removing the record.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + X",
+          "rationale": "Alt + X cancels the voucher; it keeps the voucher number and date but clears all values and marks it 'Cancelled'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + Q",
+          "rationale": "Ctrl + Q quits the screen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Esc",
+          "rationale": "Esc exits the screen without saving but does not cancel a previously saved voucher.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think of the 'X' used to mark something out."
+    },
+    {
+      "questionNumber": 45,
+      "question": "Which report helps in identifying the ratio between Current Assets and Current Liabilities?",
+      "answerOptions": [
+        {
+          "text": "Stock Summary",
+          "rationale": "This only shows inventory details.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ratio Analysis",
+          "rationale": "The Ratio Analysis report in Tally provides key financial metrics like Current Ratio, Quick Ratio, etc.",
+          "isCorrect": true
+        },
+        {
+          "text": "Trial Balance",
+          "rationale": "Trial balance lists all ledgers but doesn't calculate analytical ratios automatically.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cash Flow",
+          "rationale": "This tracks movement of cash, not the ratio of assets to liabilities.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This report is specifically designed for financial analysts and business owners to check health metrics."
+    },
+    {
+      "questionNumber": 46,
+      "question": "To change the 'Company Name' or 'Address' in Tally Prime, which menu should you go to?",
+      "answerOptions": [
+        {
+          "text": "Alt + K (Company) > Alter",
+          "rationale": "The Alter option under the Company menu (Alt + K) allows you to modify the basic registration details of the company.",
+          "isCorrect": true
+        },
+        {
+          "text": "Alt + Y (Data) > Alter",
+          "rationale": "The Data menu is for managing data files, not company profile details.",
+          "isCorrect": false
+        },
+        {
+          "text": "F12 > Alter",
+          "rationale": "F12 is for screen configurations, not company-level masters.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gateway of Tally > Create",
+          "rationale": "Create is for new ledgers/groups, not for changing the company itself.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Use the shortcut key for 'Company' on the top menu and then select the option to modify."
+    },
+    {
+      "questionNumber": 47,
+      "question": "Which of the following is a 'Sub-group' under 'Current Assets' by default?",
+      "answerOptions": [
+        {
+          "text": "Stock-in-Hand",
+          "rationale": "Stock-in-Hand is one of the pre-defined secondary groups (sub-groups) that sits under Current Assets.",
+          "isCorrect": true
+        },
+        {
+          "text": "Fixed Assets",
+          "rationale": "Fixed Assets is a primary group, not a sub-group of Current Assets.",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Incomes",
+          "rationale": "This is a primary group for Profit & Loss items.",
+          "isCorrect": false
+        },
+        {
+          "text": "Capital Account",
+          "rationale": "Capital Account is a primary group representing owner's equity.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It represents the value of inventory currently held in the business."
+    },
+    {
+      "questionNumber": 48,
+      "question": "What does 'Dr' next to a 'Bank Account' balance in the Balance Sheet usually mean?",
+      "answerOptions": [
+        {
+          "text": "The account is overdrawn",
+          "rationale": "An overdrawn bank account would show a 'Cr' (Credit) balance.",
+          "isCorrect": false
+        },
+        {
+          "text": "The account has a positive balance (Asset)",
+          "rationale": "In accounting, a debit balance in an asset account (like Bank) indicates that the business has money in that account.",
+          "isCorrect": true
+        },
+        {
+          "text": "The bank owes us money as a loan",
+          "rationale": "If the bank owes us, it is our asset (Dr). If we owe the bank, it is a liability (Cr).",
+          "isCorrect": false
+        },
+        {
+          "text": "The account is closed",
+          "rationale": "A closed account would typically show a zero balance.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Debit balances for assets are a good sign; they represent what you own."
+    },
+    {
+      "questionNumber": 49,
+      "question": "In a 'Double Entry' mode of voucher entry, what are the two sides called?",
+      "answerOptions": [
+        {
+          "text": "Income and Expenditure",
+          "rationale": "These are categories, not the sides of a transaction entry.",
+          "isCorrect": false
+        },
+        {
+          "text": "Debit and Credit",
+          "rationale": "Every transaction in double-entry bookkeeping affects at least two accounts: one is Debited and one is Credited.",
+          "isCorrect": true
+        },
+        {
+          "text": "Inward and Outward",
+          "rationale": "These terms are used for inventory flow.",
+          "isCorrect": false
+        },
+        {
+          "text": "Asset and Liability",
+          "rationale": "These are balance sheet classifications, not transaction sides.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "These are the two fundamental pillars of modern accounting."
+    },
+    {
+      "questionNumber": 50,
+      "question": "Which shortcut key is used to view the 'Stock Query' of an item while entering a voucher?",
+      "answerOptions": [
+        {
+          "text": "Alt + S",
+          "rationale": "Alt + S opens the Stock Query report, providing info on purchase/sale prices and godown availability for the selected item.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + S",
+          "rationale": "Ctrl + S is not used for stock query.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + Q",
+          "rationale": "Alt + Q is not the standard shortcut for stock query.",
+          "isCorrect": false
+        },
+        {
+          "text": "F10",
+          "rationale": "F10 opens the 'Other Vouchers' list.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Press Alt plus the first letter of 'Stock'."
+    },
+    {
+      "questionNumber": 51,
+      "question": "What is the shortcut key to toggle 'Single Entry' vs 'Double Entry' mode in a voucher?",
+      "answerOptions": [
+        {
+          "text": "Ctrl + H",
+          "rationale": "Ctrl + H opens the 'Change Mode' menu, where you can switch between Single Entry, Double Entry, or Invoice modes.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + M",
+          "rationale": "Ctrl + M is not used for changing voucher modes.",
+          "isCorrect": false
+        },
+        {
+          "text": "F12",
+          "rationale": "F12 configures fields, but Ctrl + H is the specific menu for changing the entry style/mode.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + H",
+          "rationale": "Alt + H is not a standard shortcut for switching entry modes.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think of 'H' for 'How' you want to enter the voucher."
+    },
+    {
+      "questionNumber": 52,
+      "question": "Under which group should 'Drawings' (money taken by owner for personal use) be classified?",
+      "answerOptions": [
+        {
+          "text": "Indirect Expenses",
+          "rationale": "Drawings are not a business expense; they are a reduction of the owner's investment.",
+          "isCorrect": false
+        },
+        {
+          "text": "Capital Account",
+          "rationale": "Drawings reduce the total equity of the business, so they are grouped under the Capital Account.",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Liabilities",
+          "rationale": "Drawings represent a reduction of what the business owes the owner, not an external liability.",
+          "isCorrect": false
+        },
+        {
+          "text": "Suspense Account",
+          "rationale": "Suspense is for unknown entries; drawings are a known personal withdrawal.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It relates to the owner's investment and equity in the business."
+    },
+    {
+      "questionNumber": 53,
+      "question": "Which report shows the inflow and outflow of cash during a specific period?",
+      "answerOptions": [
+        {
+          "text": "Funds Flow",
+          "rationale": "Funds Flow looks at changes in working capital, not just cash.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cash Flow",
+          "rationale": "The Cash Flow statement tracks the specific movement of cash and bank balances in and out of the company.",
+          "isCorrect": true
+        },
+        {
+          "text": "Day Book",
+          "rationale": "Day Book shows all vouchers, including non-cash journals.",
+          "isCorrect": false
+        },
+        {
+          "text": "Balance Sheet",
+          "rationale": "The Balance Sheet only shows the final cash balance, not the movement details.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "The name of the report literally describes the 'flow' of 'cash'."
+    },
+    {
+      "questionNumber": 54,
+      "question": "What is 'Alt + F1' or 'Alt + F5' used for in the Trial Balance report?",
+      "answerOptions": [
+        {
+          "text": "To delete the report",
+          "rationale": "Reports cannot be 'deleted', only vouchers or masters.",
+          "isCorrect": false
+        },
+        {
+          "text": "To view the report in a detailed format",
+          "rationale": "This shortcut expands all groups to show the individual ledgers inside them.",
+          "isCorrect": true
+        },
+        {
+          "text": "To change the date",
+          "rationale": "Date change is handled by F2.",
+          "isCorrect": false
+        },
+        {
+          "text": "To export to Excel",
+          "rationale": "Exporting is handled by Ctrl + E.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It 'opens up' the summarized lines to show more information."
+    },
+    {
+      "questionNumber": 55,
+      "question": "Under which group should 'Commission Received' be classified?",
+      "answerOptions": [
+        {
+          "text": "Direct Incomes",
+          "rationale": "Direct Incomes are for core sales. Commission is usually a secondary/supplementary income.",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Incomes",
+          "rationale": "Commission is an income earned outside of core product sales, classifying it as Indirect Income.",
+          "isCorrect": true
+        },
+        {
+          "text": "Current Assets",
+          "rationale": "Received income is cash (Asset), but the ledger itself is an Income account.",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "rationale": "This would be 'Commission Paid'.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This is an income that doesn't come from your primary product sales."
+    },
+    {
+      "questionNumber": 56,
+      "question": "Which shortcut is used to 'Select' a company from the list of loaded companies?",
+      "answerOptions": [
+        {
+          "text": "F3",
+          "rationale": "F3 is the shortcut to switch between or select from the companies currently loaded in Tally Prime.",
+          "isCorrect": true
+        },
+        {
+          "text": "F1",
+          "rationale": "F1 opens Help.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + F1",
+          "rationale": "Alt + F1 is used to shut (close) a company.",
+          "isCorrect": false
+        },
+        {
+          "text": "F11",
+          "rationale": "F11 opens Features.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "This is the third function key on your keyboard."
+    },
+    {
+      "questionNumber": 57,
+      "question": "What is the function of the 'F11' key in Tally Prime?",
+      "answerOptions": [
+        {
+          "text": "To change the date",
+          "rationale": "Date is changed via F2.",
+          "isCorrect": false
+        },
+        {
+          "text": "To open Company Features",
+          "rationale": "F11 allows you to enable or disable features like GST, Inventory, Cost Centers, and Multi-currency.",
+          "isCorrect": true
+        },
+        {
+          "text": "To open the calculator",
+          "rationale": "Calculator is Ctrl + N.",
+          "isCorrect": false
+        },
+        {
+          "text": "To create a ledger",
+          "rationale": "Ledger creation is done via the 'Create' menu.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is used to turn on or off major modules in Tally."
+    },
+    {
+      "questionNumber": 58,
+      "question": "Under which group should 'Investments in Shares' be classified?",
+      "answerOptions": [
+        {
+          "text": "Current Assets",
+          "rationale": "Shares can be current, but Tally has a specific 'Investments' group for this purpose.",
+          "isCorrect": false
+        },
+        {
+          "text": "Investments",
+          "rationale": "The 'Investments' primary group is used for assets like shares, bonds, or long-term deposits.",
+          "isCorrect": true
+        },
+        {
+          "text": "Fixed Assets",
+          "rationale": "Fixed assets are for physical things like machinery or furniture used in operations.",
+          "isCorrect": false
+        },
+        {
+          "text": "Indirect Expenses",
+          "rationale": "Buying shares is an asset purchase, not an expense.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "There is a specific primary group for money put into long-term financial instruments."
+    },
+    {
+      "questionNumber": 59,
+      "question": "How can you view the 'Stock Summary' report?",
+      "answerOptions": [
+        {
+          "text": "Gateway of Tally > Stock Summary",
+          "rationale": "Stock Summary is a primary report available directly on the Gateway of Tally menu for quick access.",
+          "isCorrect": true
+        },
+        {
+          "text": "Gateway of Tally > Vouchers",
+          "rationale": "Vouchers are for data entry, not for viewing summaries.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gateway of Tally > Create",
+          "rationale": "Create is for masters.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + F12",
+          "rationale": "Alt + F12 is for filtering data in reports, not for opening the report itself.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "It is one of the main options on the Gateway of Tally screen, usually below 'Balance Sheet' and 'P&L'."
+    },
+    {
+      "questionNumber": 60,
+      "question": "What is the shortcut key to open the 'Export' menu for a report?",
+      "answerOptions": [
+        {
+          "text": "Ctrl + E",
+          "rationale": "Ctrl + E is the standard shortcut to export any active report to formats like Excel, PDF, or XML.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ctrl + P",
+          "rationale": "Ctrl + P is for printing.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alt + E",
+          "rationale": "Alt + E was used in older versions, but Tally Prime primarily uses Ctrl + E.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ctrl + M",
+          "rationale": "Ctrl + M is for Emailing, not Exporting.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think of the first letter of 'Export' combined with the Control key."
+    }
+  ]
+}
