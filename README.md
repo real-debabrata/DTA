@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🎯 DTA (Deb Test Agency)</h1>
+  <h1>🎯 DTA (Deb Testing Agency)</h1>
   <p><strong>"Empowering seamless, instant, and barrier-free knowledge evaluation."</strong></p>
 
   <p>
@@ -45,8 +45,7 @@ If you prefer to run the application offline or locally from your machine:
    python -m http.server 8000
 ```
 4. Open your browser and navigate to: ```bash
-   http://localhost:8000
-```
+   http://localhost:8000 ```
 
 <div align="center">
 <sub>DTA — Portable Assessment Engine. Built with pure client-side architecture and hosted on GitHub Pages.</sub>
