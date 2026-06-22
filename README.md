@@ -42,5 +42,12 @@ If you prefer to run the application offline or locally from your machine:
 ```
 3. Start a quick local static server to bypass browser file security restrictions (CORS):
 ```bash
-python -m http.server 8000
+   python -m http.server 8000
 ```
+4. Open your browser and navigate to: ```bash
+   http://localhost:8000
+```
+
+<div align="center">
+<sub>DTA — Portable Assessment Engine. Built with pure client-side architecture and hosted on GitHub Pages.</sub>
+</div>
