@@ -39,6 +39,8 @@ If you prefer to run the application offline or locally from your machine:
 2. Open your terminal/command prompt and navigate to the folder:
 ```bash
    cd DTA-main
+```
 3. Start a quick local static server to bypass browser file security restrictions (CORS):
 ```bash
 python -m http.server 8000
+```
