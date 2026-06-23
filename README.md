@@ -4,7 +4,7 @@
 
   <p>
     <a href="https://real-debabrata.github.io/DTA/" target="_blank">
-      <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Take%20Test%20Now-blue?style=for-the-badge&logo=github" alt="Take Test Now">
+      <img src="https://img.shields.io/badge/🚀%20Live%20NOW-Take%20Test%20Now-blue?style=for-the-badge&logo=github" alt="Take Test Now">
     </a>
   </p>
 </div>
