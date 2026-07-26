@@ -1,0 +1,523 @@
+{
+  "quizTitle": "GT June 2026 - Tally Prime Final Semester Mock Test",
+  "questions": [
+    {
+      "question": "Basic Pay created under",
+      "answerOptions": [
+        { "text": "Direct Expense", "isCorrect": false },
+        { "text": "Indirect Expense", "isCorrect": true },
+        { "text": "Current Assets", "isCorrect": false },
+        { "text": "Current Liabilities", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "DA is created under the Pay Head Type",
+      "answerOptions": [
+        { "text": "Earnings for Employees", "isCorrect": true },
+        { "text": "Deductions from Employees", "isCorrect": false },
+        { "text": "Employees' Statutory Deductions", "isCorrect": false },
+        { "text": "Employer's Statutory Contribution", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To pass Payroll Voucher press",
+      "answerOptions": [
+        { "text": "Ctrl + F4", "isCorrect": true },
+        { "text": "Ctrl + F5", "isCorrect": false },
+        { "text": "Alt + F4", "isCorrect": false },
+        { "text": "Alt + F5", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The quarterly statement for TDS from \"Fees for Professional Services\" is",
+      "answerOptions": [
+        { "text": "Form 24Q", "isCorrect": false },
+        { "text": "Form 26Q", "isCorrect": true },
+        { "text": "Form 27Q", "isCorrect": false },
+        { "text": "Form 26QB", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "TDS Challan is",
+      "answerOptions": [
+        { "text": "ITNS 281", "isCorrect": true },
+        { "text": "Form 26Q", "isCorrect": false },
+        { "text": "Form 24Q", "isCorrect": false },
+        { "text": "GSTR 3B", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "TDS deduction at Lower Rate under Section Number",
+      "answerOptions": [
+        { "text": "195", "isCorrect": false },
+        { "text": "195A", "isCorrect": false },
+        { "text": "197", "isCorrect": true },
+        { "text": "197A", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "For lower rate TDS deduction provided Certificate No. is compulsory.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "For Autofill press",
+      "answerOptions": [
+        { "text": "Ctrl + F", "isCorrect": true },
+        { "text": "Ctrl + A", "isCorrect": false },
+        { "text": "Alt + A", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "For Statutory Adjustment press",
+      "answerOptions": [
+        { "text": "Alt + J", "isCorrect": true },
+        { "text": "Alt + S", "isCorrect": false },
+        { "text": "Ctrl + F", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To switch between Stock Items and Ledger at Advance Receipt press",
+      "answerOptions": [
+        { "text": "Alt + N", "isCorrect": false },
+        { "text": "Alt + L", "isCorrect": true },
+        { "text": "Ctrl + J", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "_____ is a tax return that summarizes the sales and other outward supplies made by a registered dealer and eligible ITC.",
+      "answerOptions": [
+        { "text": "GSTR - 1", "isCorrect": false },
+        { "text": "GSTR - 2", "isCorrect": false },
+        { "text": "GSTR - 3B", "isCorrect": true },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You can create ledger for state tax by selecting the _____ Tax type under GST.",
+      "answerOptions": [
+        { "text": "Central Tax", "isCorrect": false },
+        { "text": "State Tax", "isCorrect": true },
+        { "text": "Integrated Tax", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To recall the last narration saved for specific voucher type",
+      "answerOptions": [
+        { "text": "Alt + R", "isCorrect": false },
+        { "text": "Ctrl + R", "isCorrect": true },
+        { "text": "Ctrl + C", "isCorrect": false },
+        { "text": "Alt + C", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To split company data press",
+      "answerOptions": [
+        { "text": "Alt + K", "isCorrect": false },
+        { "text": "Alt + Y", "isCorrect": true },
+        { "text": "F11", "isCorrect": false },
+        { "text": "F12", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To create Group Company press",
+      "answerOptions": [
+        { "text": "Alt + G", "isCorrect": false },
+        { "text": "Alt + C", "isCorrect": false },
+        { "text": "Alt + H", "isCorrect": false },
+        { "text": "Alt + R", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "To accept a screen press",
+      "answerOptions": [
+        { "text": "Ctrl + A", "isCorrect": true },
+        { "text": "Ctrl + S", "isCorrect": false },
+        { "text": "Alt + A", "isCorrect": false },
+        { "text": "Esc", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To open calculator panel press",
+      "answerOptions": [
+        { "text": "Ctrl + N", "isCorrect": true },
+        { "text": "Ctrl + M", "isCorrect": false },
+        { "text": "Ctrl + C", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To open Company Features screen press",
+      "answerOptions": [
+        { "text": "F1", "isCorrect": false },
+        { "text": "F2", "isCorrect": false },
+        { "text": "F11", "isCorrect": true },
+        { "text": "F12", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To change the date of voucher entry press",
+      "answerOptions": [
+        { "text": "F1", "isCorrect": false },
+        { "text": "F2", "isCorrect": true },
+        { "text": "F11", "isCorrect": false },
+        { "text": "F12", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To open the list of configuration press",
+      "answerOptions": [
+        { "text": "F1", "isCorrect": false },
+        { "text": "F2", "isCorrect": false },
+        { "text": "F11", "isCorrect": false },
+        { "text": "F12", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "You can delete a company by pressing _____.",
+      "answerOptions": [
+        { "text": "Ctrl + D", "isCorrect": false },
+        { "text": "Alt + D", "isCorrect": true },
+        { "text": "Alt + C", "isCorrect": false },
+        { "text": "Ctrl + C", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To open Company top menu press",
+      "answerOptions": [
+        { "text": "Alt + K", "isCorrect": true },
+        { "text": "Alt + O", "isCorrect": false },
+        { "text": "Alt + C", "isCorrect": false },
+        { "text": "Ctrl + K", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To print press",
+      "answerOptions": [
+        { "text": "Ctrl + P", "isCorrect": true },
+        { "text": "Alt + K", "isCorrect": false },
+        { "text": "Ctrl + K", "isCorrect": false },
+        { "text": "Ctrl + Enter", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To change the period of reports press",
+      "answerOptions": [
+        { "text": "Ctrl + F1", "isCorrect": false },
+        { "text": "Alt + F1", "isCorrect": false },
+        { "text": "Ctrl + F2", "isCorrect": false },
+        { "text": "Alt + F2", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "To select and open another company press",
+      "answerOptions": [
+        { "text": "Alt + F1", "isCorrect": false },
+        { "text": "Alt + F2", "isCorrect": false },
+        { "text": "Alt + F3", "isCorrect": true },
+        { "text": "Alt + F4", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To shut the currently loaded companies press",
+      "answerOptions": [
+        { "text": "Ctrl + F1", "isCorrect": false },
+        { "text": "Ctrl + F2", "isCorrect": false },
+        { "text": "Ctrl + F3", "isCorrect": true },
+        { "text": "Ctrl + F4", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To alter a master during voucher entry press",
+      "answerOptions": [
+        { "text": "Ctrl + Enter", "isCorrect": true },
+        { "text": "Alt + Enter", "isCorrect": false },
+        { "text": "Alt + C", "isCorrect": false },
+        { "text": "Ctrl + A", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To change view press",
+      "answerOptions": [
+        { "text": "Alt + H", "isCorrect": false },
+        { "text": "Ctrl + H", "isCorrect": true },
+        { "text": "Ctrl + Enter", "isCorrect": false },
+        { "text": "Alt + C", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To view list of all vouchers press",
+      "answerOptions": [
+        { "text": "F10", "isCorrect": true },
+        { "text": "F11", "isCorrect": false },
+        { "text": "F12", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Press _____ for online creation of ledger.",
+      "answerOptions": [
+        { "text": "Alt + C", "isCorrect": true },
+        { "text": "Ctrl + C", "isCorrect": false },
+        { "text": "Alt + L", "isCorrect": false },
+        { "text": "Ctrl + L", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To open Contra voucher press",
+      "answerOptions": [
+        { "text": "F1", "isCorrect": false },
+        { "text": "F2", "isCorrect": false },
+        { "text": "F3", "isCorrect": false },
+        { "text": "F4", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "To open Payment voucher press",
+      "answerOptions": [
+        { "text": "F5", "isCorrect": true },
+        { "text": "F6", "isCorrect": false },
+        { "text": "F7", "isCorrect": false },
+        { "text": "F8", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To open Stock Journal voucher",
+      "answerOptions": [
+        { "text": "F7", "isCorrect": false },
+        { "text": "Alt + F7", "isCorrect": true },
+        { "text": "Ctrl + F7", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To open Debit Note press",
+      "answerOptions": [
+        { "text": "Alt + F5", "isCorrect": true },
+        { "text": "Ctrl + F5", "isCorrect": false },
+        { "text": "Alt + F10", "isCorrect": false },
+        { "text": "Ctrl + F10", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You can classify all ledger accounts into various _____ based on their functions.",
+      "answerOptions": [
+        { "text": "Groups", "isCorrect": true },
+        { "text": "Ledger", "isCorrect": false },
+        { "text": "Voucher Types", "isCorrect": false },
+        { "text": "Cost Centre", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "There are a total of 28 predefined Account Groups.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "There are a total of 2 predefined Ledgers.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To delete a group, bring up the group in alteration mode and press Ctrl + D.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": false },
+        { "text": "False", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "In general the financial year from shall be",
+      "answerOptions": [
+        { "text": "1st April of any year", "isCorrect": true },
+        { "text": "31st March of any year", "isCorrect": false },
+        { "text": "All of them", "isCorrect": false },
+        { "text": "None of these", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Press F7 at the voucher entry screen to pass a Journal voucher.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In order to transfer fund between cash and bank accounts, we have to transact through",
+      "answerOptions": [
+        { "text": "Contra Voucher", "isCorrect": true },
+        { "text": "Payment Voucher", "isCorrect": false },
+        { "text": "Receipt Voucher", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "The ledger, for which cost allocation is applicable, should have Cost centres are applicable? set to 'Yes'.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Cost Centre Break-up contains group-wise and ledger-wise breakup of individual cost centres.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which ledger is created automatically as soon as we create a new company",
+      "answerOptions": [
+        { "text": "Cash", "isCorrect": false },
+        { "text": "Profit & Loss A/c", "isCorrect": false },
+        { "text": "Capital", "isCorrect": false },
+        { "text": "(a) and (b) both", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which option is used to make changes in created ledgers",
+      "answerOptions": [
+        { "text": "Create", "isCorrect": false },
+        { "text": "Display", "isCorrect": false },
+        { "text": "Alter", "isCorrect": true },
+        { "text": "Change", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Where do we record transactions of salary, rent or interest paid",
+      "answerOptions": [
+        { "text": "Contra", "isCorrect": false },
+        { "text": "Journal", "isCorrect": false },
+        { "text": "Receipt", "isCorrect": false },
+        { "text": "Payment", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Where do we record interest, commission or rent received",
+      "answerOptions": [
+        { "text": "Contra", "isCorrect": false },
+        { "text": "Payment", "isCorrect": false },
+        { "text": "Receipt", "isCorrect": true },
+        { "text": "Journal", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which unit is created for items like grain, pulse, sugar, ghee etc.",
+      "answerOptions": [
+        { "text": "Lts", "isCorrect": false },
+        { "text": "Nos", "isCorrect": false },
+        { "text": "Kgs", "isCorrect": true },
+        { "text": "Box", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You may create different price lists and enter the Price and Discount rates of each item.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In certain cases, the actual quantity and the billing quantity differs, Tally enables you to mention both in invoice voucher.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Revision of old prices in Price List is like of new set of rates for the new effective date.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "We can show bill wise details of Debtors and Creditors by activating Maintain Balances bill-by-bill.",
+      "answerOptions": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Single Entry mode is applicable for",
+      "answerOptions": [
+        { "text": "Receipt Voucher", "isCorrect": false },
+        { "text": "Contra Voucher", "isCorrect": false },
+        { "text": "Payment Voucher", "isCorrect": false },
+        { "text": "All of these", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "If we purchase fixed asset in credit, we can pass it from",
+      "answerOptions": [
+        { "text": "Payment Voucher", "isCorrect": false },
+        { "text": "Receipt Voucher", "isCorrect": false },
+        { "text": "Journal Voucher", "isCorrect": true },
+        { "text": "Contra Voucher", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Profit & Loss A/c can be displayed in",
+      "answerOptions": [
+        { "text": "Horizontal", "isCorrect": false },
+        { "text": "Vertical", "isCorrect": false },
+        { "text": "Both of the above", "isCorrect": true },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In Tally, while creating a company we can select a",
+      "answerOptions": [
+        { "text": "State", "isCorrect": false },
+        { "text": "Country", "isCorrect": false },
+        { "text": "Both of the above", "isCorrect": true },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Manufacturing Journal creates based on",
+      "answerOptions": [
+        { "text": "Journal", "isCorrect": false },
+        { "text": "Receipt Note", "isCorrect": false },
+        { "text": "Stock Journal", "isCorrect": true },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "In order to transfer stock from one godown to another, we have to transact through",
+      "answerOptions": [
+        { "text": "Physical Stock", "isCorrect": false },
+        { "text": "Stock Journal", "isCorrect": true },
+        { "text": "Receipt Note", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which option is used to copy company's data",
+      "answerOptions": [
+        { "text": "Backup", "isCorrect": true },
+        { "text": "Restore", "isCorrect": false },
+        { "text": "Split Company Data", "isCorrect": false },
+        { "text": "Copy Data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "You can use _____ voucher to enter attendance.",
+      "answerOptions": [
+        { "text": "Payroll", "isCorrect": false },
+        { "text": "Attendance", "isCorrect": true },
+        { "text": "Payment", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ]
+    }
+  ]
+}
