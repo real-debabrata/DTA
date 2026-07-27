@@ -206,49 +206,88 @@
             }
         };
 
+        // NOTE: These are hardcoded rather than derived from window.location because
+        // this site is served from a custom domain (see CNAME -> test.commerce.qzz.io)
+        // as well as GitHub Pages / localhost. Parsing the hostname/path previously broke
+        // on any of those hosts (wrong "owner"/"repo" -> 404 from the GitHub API -> question
+        // papers never loaded), so we just point directly at the known source repo instead.
+        const REPO_OWNER = 'real-debabrata';
+        const REPO_NAME = 'DTA';
+
         function getRepoDetails() {
-            const host = window.location.hostname;
-            const path = window.location.pathname.split('/');
-            const owner = host.split('.')[0];
-            const repo = path[1] || ''; 
-            return { owner, repo };
+            return { owner: REPO_OWNER, repo: REPO_NAME };
+        }
+
+        // Fallback manifest used if the GitHub API call fails or is rate-limited
+        // (unauthenticated api.github.com calls are capped at 60/hr *per IP*, shared
+        // across every visitor -- easy to exhaust, which used to make the library
+        // silently fail to load). These hit raw.githubusercontent.com directly instead,
+        // which has a much higher, effectively per-user limit.
+        const FALLBACK_FILES = [
+            '1 Demo Test.json',
+            'CUET UG ACCOUNTANCY PYQ 2025 (50Q).json',
+            'TALLYPRIME PYQ 60Q(End Sem 2026).json',
+            'Tally Interview Questions MCQ Test(45Q).json',
+            'Tally Ledgers and Groups Quiz.json',
+            'Tally Prime Core Functionalities TEST (60Q).json'
+        ];
+
+        function populatePaperList(jsons) {
+            repoFileList.innerHTML = '<option value="" disabled selected>-- Select Paper --</option>';
+            jsons.forEach(file => {
+                const opt = document.createElement('option');
+                opt.value = file.download_url;
+                opt.textContent = file.name.replace('.json', '').replace(/-/g, ' ');
+                repoFileList.appendChild(opt);
+            });
+
+            repoFileList.onchange = async () => {
+                startBtn.disabled = true;
+                statusMsg.innerText = "Calculating paper length...";
+                try {
+                    const res = await fetch(repoFileList.value);
+                    const data = await res.json();
+                    const qCount = data.questions.length;
+                    const totalMins = Math.ceil(qCount * MINUTES_PER_QUESTION);
+                    document.getElementById('paperStats').classList.remove('hidden');
+                    document.getElementById('statQuestions').innerText = qCount;
+                    document.getElementById('statTime').innerText = totalMins + "m";
+                    document.getElementById('insDuration').innerText = totalMins;
+                    startBtn.disabled = false;
+                    statusMsg.innerText = "Exam Ready";
+                } catch (e) { statusMsg.innerText = "Error reading paper data"; }
+            };
         }
 
         async function fetchExamLibrary() {
             const { owner, repo } = getRepoDetails();
             const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${QUESTIONS_FOLDER}`;
-            
+
             try {
                 const response = await fetch(apiUrl);
                 const files = await response.json();
+                if (!Array.isArray(files)) throw new Error(files.message || 'Unexpected API response');
                 const jsons = files.filter(f => f.name.endsWith('.json'));
-                
-                repoFileList.innerHTML = '<option value="" disabled selected>-- Select Paper --</option>';
-                jsons.forEach(file => {
-                    const opt = document.createElement('option');
-                    opt.value = file.download_url;
-                    opt.textContent = file.name.replace('.json', '').replace(/-/g, ' ');
-                    repoFileList.appendChild(opt);
-                });
+                if (jsons.length === 0) throw new Error('No papers found via API');
 
-                repoFileList.onchange = async () => {
-                    startBtn.disabled = true;
-                    statusMsg.innerText = "Calculating paper length...";
-                    try {
-                        const res = await fetch(repoFileList.value);
-                        const data = await res.json();
-                        const qCount = data.questions.length;
-                        const totalMins = Math.ceil(qCount * MINUTES_PER_QUESTION);
-                        document.getElementById('paperStats').classList.remove('hidden');
-                        document.getElementById('statQuestions').innerText = qCount;
-                        document.getElementById('statTime').innerText = totalMins + "m";
-                        document.getElementById('insDuration').innerText = totalMins;
-                        startBtn.disabled = false;
-                        statusMsg.innerText = "Exam Ready";
-                    } catch (e) { statusMsg.innerText = "Error reading paper data"; }
-                };
+                populatePaperList(jsons);
                 statusMsg.innerText = `Connected to Library`;
-            } catch (e) { statusMsg.innerText = "Error: Folder not found"; }
+            } catch (e) {
+                // API failed (rate limit, network hiccup, folder rename, etc.) --
+                // fall back to a direct raw.githubusercontent.com file list so the
+                // app still works instead of showing a dead dropdown.
+                try {
+                    const branch = 'main';
+                    const jsons = FALLBACK_FILES.map(name => ({
+                        name,
+                        download_url: `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${QUESTIONS_FOLDER}/${encodeURIComponent(name)}`
+                    }));
+                    populatePaperList(jsons);
+                    statusMsg.innerText = `Connected to Library (fallback mode)`;
+                } catch (e2) {
+                    statusMsg.innerText = "Error: Folder not found";
+                }
+            }
         }
 
         // 1. Move from Setup to Instructions
