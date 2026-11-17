@@ -1,0 +1,1107 @@
+{
+  "quizTitle": "Dynamics of Business Environment and Legal Frameworks - 50q",
+  "marksPerQuestion": 2,
+  "totalMarks": 100,
+  "questions": [
+    {
+      "question": "Business environment refers to:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Internal policies of an organisation only",
+          "isCorrect": false
+        },
+        {
+          "text": "The aggregate of all conditions, events, and influences affecting business operations",
+          "isCorrect": true
+        },
+        {
+          "text": "Financial performance of a business",
+          "isCorrect": false
+        },
+        {
+          "text": "Government regulations only",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The 5Ms of the internal business environment include:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Money, Market, Mission, Management, Media",
+          "isCorrect": false
+        },
+        {
+          "text": "Mission, Marketing, Money, Management, Morality",
+          "isCorrect": false
+        },
+        {
+          "text": "Men, Money, Materials, Machinery, Management",
+          "isCorrect": true
+        },
+        {
+          "text": "Men, Market, Management, Mission, Machinery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which statement correctly distinguishes vision from mission?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Vision explains \"what\" the organisation does, while mission explains \"why.\"",
+          "isCorrect": false
+        },
+        {
+          "text": "Vision focuses on the long-term purpose, whereas mission describes what the organisation does to achieve it.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mission is broader than vision.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vision and mission are identical.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A company modifies its product packaging to comply with newly introduced environmental regulations. This demonstrates adaptation to which macro factor?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Demographic",
+          "isCorrect": false
+        },
+        {
+          "text": "Economic",
+          "isCorrect": false
+        },
+        {
+          "text": "Technological",
+          "isCorrect": false
+        },
+        {
+          "text": "Environmental and Legal",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is the first step in the strategic management process?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Strategy formulation",
+          "isCorrect": false
+        },
+        {
+          "text": "Strategy implementation",
+          "isCorrect": false
+        },
+        {
+          "text": "Strategy evaluation",
+          "isCorrect": false
+        },
+        {
+          "text": "Scanning the business environment",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Which framework is an extension of the traditional PESTEL analysis?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "SWOT",
+          "isCorrect": false
+        },
+        {
+          "text": "Porter's Five Forces",
+          "isCorrect": false
+        },
+        {
+          "text": "STEEPLEDIGS",
+          "isCorrect": true
+        },
+        {
+          "text": "Value Chain Analysis",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The SAP-LAP framework was developed by:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Michael Porter",
+          "isCorrect": false
+        },
+        {
+          "text": "Peter Drucker",
+          "isCorrect": false
+        },
+        {
+          "text": "Alex Miller",
+          "isCorrect": false
+        },
+        {
+          "text": "Prof. Shushil",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is NOT one of Porter's Five Forces?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Supplier Power",
+          "isCorrect": false
+        },
+        {
+          "text": "Customer Power",
+          "isCorrect": false
+        },
+        {
+          "text": "Government Policies",
+          "isCorrect": true
+        },
+        {
+          "text": "Threat of New Entrants",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The New Economic Policy (NEP), based on LPG, was introduced in India in:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "1985",
+          "isCorrect": false
+        },
+        {
+          "text": "1990",
+          "isCorrect": false
+        },
+        {
+          "text": "1991",
+          "isCorrect": true
+        },
+        {
+          "text": "1995",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is another term used for privatisation?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Nationalization",
+          "isCorrect": false
+        },
+        {
+          "text": "Liberalization",
+          "isCorrect": false
+        },
+        {
+          "text": "Diversification",
+          "isCorrect": false
+        },
+        {
+          "text": "Disinvestment",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Which theory of international trade was proposed by Adam Smith?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Comparative Advantage Theory",
+          "isCorrect": false
+        },
+        {
+          "text": "Absolute Advantage Theory",
+          "isCorrect": true
+        },
+        {
+          "text": "Heckscher-Ohlin Theory",
+          "isCorrect": false
+        },
+        {
+          "text": "Porter's Diamond Theory",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which management orientation considers the entire world as a single market?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Ethnocentric",
+          "isCorrect": false
+        },
+        {
+          "text": "Polycentric",
+          "isCorrect": false
+        },
+        {
+          "text": "Regiocentric",
+          "isCorrect": false
+        },
+        {
+          "text": "Geocentric",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "The first Industrial Policy Resolution in India was announced in:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "1947",
+          "isCorrect": false
+        },
+        {
+          "text": "1948",
+          "isCorrect": true
+        },
+        {
+          "text": "1950",
+          "isCorrect": false
+        },
+        {
+          "text": "1956",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Human Development Index (HDI) is a composite index that measures:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Inflation and employment",
+          "isCorrect": false
+        },
+        {
+          "text": "Industrial production and exports",
+          "isCorrect": false
+        },
+        {
+          "text": "Population growth and literacy only",
+          "isCorrect": false
+        },
+        {
+          "text": "Life expectancy, education, and per capita income",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Which monetary policy measure is generally adopted by the Reserve Bank of India (RBI) to curb inflation?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Lowering the repo rate",
+          "isCorrect": false
+        },
+        {
+          "text": "Printing additional currency",
+          "isCorrect": false
+        },
+        {
+          "text": "Increasing the repo rate",
+          "isCorrect": true
+        },
+        {
+          "text": "Reducing import duties",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Through Open Market Operations (OMO), the Reserve Bank of India primarily aims to:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Regulate international trade",
+          "isCorrect": false
+        },
+        {
+          "text": "Control commodity prices",
+          "isCorrect": false
+        },
+        {
+          "text": "Influence the money supply by buying or selling government securities",
+          "isCorrect": true
+        },
+        {
+          "text": "Reduce the government's fiscal deficit directly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which organisation primarily facilitates the implementation of India's Foreign Trade Policy by issuing export-import authorisations?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Directorate General of Foreign Trade (DGFT)",
+          "isCorrect": true
+        },
+        {
+          "text": "Securities and Exchange Board of India (SEBI)",
+          "isCorrect": false
+        },
+        {
+          "text": "Competition Commission of India (CCI)",
+          "isCorrect": false
+        },
+        {
+          "text": "National Stock Exchange (NSE)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is a potential advantage of privatisation?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Complete elimination of competition",
+          "isCorrect": false
+        },
+        {
+          "text": "Higher government ownership",
+          "isCorrect": false
+        },
+        {
+          "text": "Increased operational efficiency and innovation",
+          "isCorrect": true
+        },
+        {
+          "text": "Reduction in consumer choices",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which method of disinvestment involves transferring management control of a Public Sector Enterprise (PSE) to a private buyer?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Initial Public Offering (IPO)",
+          "isCorrect": false
+        },
+        {
+          "text": "Bonus Issue",
+          "isCorrect": false
+        },
+        {
+          "text": "Strategic Sale",
+          "isCorrect": true
+        },
+        {
+          "text": "Rights Issue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The 'Districts as Export Hubs' initiative is expected to contribute to India's economy by:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Encouraging exports from locally competitive products and industries",
+          "isCorrect": true
+        },
+        {
+          "text": "Restricting exports from rural areas",
+          "isCorrect": false
+        },
+        {
+          "text": "Promoting imports over exports",
+          "isCorrect": false
+        },
+        {
+          "text": "Replacing state governments in export promotion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Respect for seniority in Japan compared to the egalitarian workplace culture of Sweden illustrates differences in:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Economic development",
+          "isCorrect": false
+        },
+        {
+          "text": "National culture and work values",
+          "isCorrect": true
+        },
+        {
+          "text": "Political systems",
+          "isCorrect": false
+        },
+        {
+          "text": "Industrial policies",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A multinational company modifying its product and advertising strategy to suit local customs is practising:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Localization",
+          "isCorrect": true
+        },
+        {
+          "text": "Standardization",
+          "isCorrect": false
+        },
+        {
+          "text": "Privatization",
+          "isCorrect": false
+        },
+        {
+          "text": "Liberalization",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which constitutional principle reflects the essence of secularism in India?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "State religion",
+          "isCorrect": false
+        },
+        {
+          "text": "Equal respect for all religions",
+          "isCorrect": true
+        },
+        {
+          "text": "Preference for majority religion",
+          "isCorrect": false
+        },
+        {
+          "text": "Separation of citizens based on religion",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "According to the Traditional Theory, the caste system in India originated from:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Occupational specialization",
+          "isCorrect": false
+        },
+        {
+          "text": "Economic inequality",
+          "isCorrect": false
+        },
+        {
+          "text": "Political decisions of ancient rulers",
+          "isCorrect": false
+        },
+        {
+          "text": "A divine creation based on the body parts of Lord Brahma",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "The major problem of in-house R&D in India:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Excess funding",
+          "isCorrect": false
+        },
+        {
+          "text": "Shortage of skilled scientists/engineers",
+          "isCorrect": true
+        },
+        {
+          "text": "Low global competition",
+          "isCorrect": false
+        },
+        {
+          "text": "Simplified patent regulations",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which inventor is widely recognised for improving the efficiency of the steam engine during the First Industrial Revolution?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Thomas Edison",
+          "isCorrect": false
+        },
+        {
+          "text": "Henry Ford",
+          "isCorrect": false
+        },
+        {
+          "text": "James Watt",
+          "isCorrect": true
+        },
+        {
+          "text": "Nikola Tesla",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Industry 4.0 is primarily associated with:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Mechanised production using steam power",
+          "isCorrect": false
+        },
+        {
+          "text": "Electrification of industries",
+          "isCorrect": false
+        },
+        {
+          "text": "Intelligent automation and interconnected manufacturing systems",
+          "isCorrect": true
+        },
+        {
+          "text": "Manual craftsmanship",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which principle is central to the concept of Industry 5.0?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Mass production of standardised goods",
+          "isCorrect": false
+        },
+        {
+          "text": "Human-machine collaboration to create personalised solutions",
+          "isCorrect": true
+        },
+        {
+          "text": "Complete replacement of human workers by robots",
+          "isCorrect": false
+        },
+        {
+          "text": "Dependence on electricity for production",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A manufacturing company is directed to compensate for the environmental damage caused by its industrial waste. This is an example of:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Precautionary Principle",
+          "isCorrect": false
+        },
+        {
+          "text": "Polluter Pays Principle (PPP)",
+          "isCorrect": true
+        },
+        {
+          "text": "User Pays Principle (UPP)",
+          "isCorrect": false
+        },
+        {
+          "text": "Principle of Sustainable Development",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The concept of the Triple Bottom Line (TBL) was introduced by:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Milton Friedman",
+          "isCorrect": false
+        },
+        {
+          "text": "C.K. Prahalad",
+          "isCorrect": false
+        },
+        {
+          "text": "John Elkington",
+          "isCorrect": true
+        },
+        {
+          "text": "A.C. Fernando",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A company advertises itself as environmentally responsible without making significant sustainability efforts. This practice is known as:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Green marketing",
+          "isCorrect": false
+        },
+        {
+          "text": "Greenwashing",
+          "isCorrect": true
+        },
+        {
+          "text": "Corporate philanthropy",
+          "isCorrect": false
+        },
+        {
+          "text": "Circular economy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A manufacturing company adopts an internationally recognised standard to systematically manage its environmental responsibilities and improve environmental performance. Which standard is it implementing?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "ISO 9001",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 22000",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 31000",
+          "isCorrect": false
+        },
+        {
+          "text": "ISO 14001",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "Who is credited with hand-calligraphing the original manuscript of the Indian Constitution?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Dr. B.R. Ambedkar",
+          "isCorrect": false
+        },
+        {
+          "text": "Prem Behari Narain Raizada",
+          "isCorrect": true
+        },
+        {
+          "text": "G.S. Gupta",
+          "isCorrect": false
+        },
+        {
+          "text": "Rajendra Prasad",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which Part of the Indian Constitution contains the Directive Principles of State Policy (DPSPs)?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Part II",
+          "isCorrect": false
+        },
+        {
+          "text": "Part IV",
+          "isCorrect": true
+        },
+        {
+          "text": "Part III",
+          "isCorrect": false
+        },
+        {
+          "text": "Part V",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The President of India has the constitutional authority to:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Appoint the judges of the Supreme Court and High Courts",
+          "isCorrect": true
+        },
+        {
+          "text": "Conduct elections",
+          "isCorrect": false
+        },
+        {
+          "text": "Frame monetary policy",
+          "isCorrect": false
+        },
+        {
+          "text": "Interpret the Constitution",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A subject is included in a constitutional list that permits both Parliament and State Legislatures to enact laws. This subject belongs to the:",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Concurrent List",
+          "isCorrect": true
+        },
+        {
+          "text": "Union List",
+          "isCorrect": false
+        },
+        {
+          "text": "State List",
+          "isCorrect": false
+        },
+        {
+          "text": "Residuary List",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is an essential element of a valid contract under the Indian Contract Act, 1872?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Free consent of the parties",
+          "isCorrect": true
+        },
+        {
+          "text": "Social relationship between the parties",
+          "isCorrect": false
+        },
+        {
+          "text": "Religious obligation",
+          "isCorrect": false
+        },
+        {
+          "text": "Verbal promise without consideration",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the legal status of an agreement with a minor?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Valid",
+          "isCorrect": false
+        },
+        {
+          "text": "Voidable",
+          "isCorrect": false
+        },
+        {
+          "text": "Void",
+          "isCorrect": true
+        },
+        {
+          "text": "Illegal",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following makes a contract voidable?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Mistake of law",
+          "isCorrect": false
+        },
+        {
+          "text": "Undue influence",
+          "isCorrect": true
+        },
+        {
+          "text": "Legal formalities",
+          "isCorrect": false
+        },
+        {
+          "text": "Past consideration",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "A consumer can file a complaint within how many years from the date of the cause of action?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "1 year",
+          "isCorrect": false
+        },
+        {
+          "text": "2 years",
+          "isCorrect": true
+        },
+        {
+          "text": "3 years",
+          "isCorrect": false
+        },
+        {
+          "text": "5 years",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "The IT Act, 2000, is based on which international model law?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "UNCITRAL",
+          "isCorrect": true
+        },
+        {
+          "text": "WTO Guidelines",
+          "isCorrect": false
+        },
+        {
+          "text": "UN Charter",
+          "isCorrect": false
+        },
+        {
+          "text": "EU Cyber Law",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "In a contract for the sale of future goods, what is the nature of the contract?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Sale",
+          "isCorrect": false
+        },
+        {
+          "text": "Agreement to sell",
+          "isCorrect": true
+        },
+        {
+          "text": "Lease",
+          "isCorrect": false
+        },
+        {
+          "text": "Barter",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What does the doctrine of \"Caveat Emptor\" mean?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Seller beware",
+          "isCorrect": false
+        },
+        {
+          "text": "Let the court decide",
+          "isCorrect": false
+        },
+        {
+          "text": "Buyer beware",
+          "isCorrect": true
+        },
+        {
+          "text": "The government guarantees the goods",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When is a seller considered an \"unpaid seller\"?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "When the buyer refuses to accept delivery",
+          "isCorrect": false
+        },
+        {
+          "text": "When the full price has not been paid or tendered",
+          "isCorrect": true
+        },
+        {
+          "text": "When the goods are defective",
+          "isCorrect": false
+        },
+        {
+          "text": "When the seller delays delivery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a \"dormant partner\"?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "A partner who is inactive but shares profits and losses",
+          "isCorrect": true
+        },
+        {
+          "text": "A partner who manages the firm",
+          "isCorrect": false
+        },
+        {
+          "text": "A partner who is liable only for profits",
+          "isCorrect": false
+        },
+        {
+          "text": "A partner who is a minor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the liability of a retiring partner after retirement?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "No liability for any acts of the firm",
+          "isCorrect": false
+        },
+        {
+          "text": "Liability only for future acts of the firm",
+          "isCorrect": false
+        },
+        {
+          "text": "Liability for acts before retirement, unless public notice is given",
+          "isCorrect": true
+        },
+        {
+          "text": "Liability only if the firm dissolves",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is a new concept introduced by the Companies Act, 2013?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Public Limited Company",
+          "isCorrect": false
+        },
+        {
+          "text": "One Person Company (OPC)",
+          "isCorrect": true
+        },
+        {
+          "text": "Partnership Firm",
+          "isCorrect": false
+        },
+        {
+          "text": "Sole Proprietorship",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the key difference between a Listed Company and an Unlisted Company?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Listed companies have fewer shareholders",
+          "isCorrect": false
+        },
+        {
+          "text": "Unlisted companies cannot raise capital from the public",
+          "isCorrect": false
+        },
+        {
+          "text": "Listed companies have their securities traded on a stock exchange",
+          "isCorrect": true
+        },
+        {
+          "text": "Unlisted companies are exempt from all regulations",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of the Memorandum of Association (MoA)?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "To outline the internal rules of the company",
+          "isCorrect": false
+        },
+        {
+          "text": "To define the company's relationship with shareholders",
+          "isCorrect": false
+        },
+        {
+          "text": "To specify the fundamental conditions and objects of the company",
+          "isCorrect": true
+        },
+        {
+          "text": "To list the employees of the company",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a feature of a company under the Companies Act, 2013?",
+      "marks": 2,
+      "answerOptions": [
+        {
+          "text": "Separate Legal Entity",
+          "isCorrect": false
+        },
+        {
+          "text": "Unlimited Liability",
+          "isCorrect": true
+        },
+        {
+          "text": "Perpetual Succession",
+          "isCorrect": false
+        },
+        {
+          "text": "Transferability of Shares",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
