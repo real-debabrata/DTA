@@ -22,6 +22,15 @@
         .loader { border: 3px solid #f3f3f3; border-top: 3px solid #3b82f6; border-radius: 50%; width: 18px; height: 18px; animation: spin 1s linear infinite; display: inline-block; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
         
+        /* Content protection: no selecting, no long-press menu, nothing on print */
+        html, body, body * { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-touch-callout: none; }
+        img { -webkit-user-drag: none; }
+        @media print { html, body { display: none !important; } }
+
+        /* Toast */
+        #toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); background: #1f2937; color: #fff; font-size: 13px; font-weight: 600; padding: 10px 16px; border-radius: 10px; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 200; max-width: 90%; text-align: center; }
+        #toast.show { opacity: 1; transform: translate(-50%, 0); }
+
         /* Instructions Styling */
         .instruction-box { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; border-radius: 4px; }
     </style>
@@ -56,7 +65,7 @@
                 </select>
             </div>
 
-            <div id="paperStats" class="hidden grid grid-cols-2 gap-2 mb-6">
+            <div id="paperStats" class="hidden grid grid-cols-3 gap-2 mb-6">
                 <div class="bg-blue-50 p-2 rounded-lg border border-blue-100">
                     <p class="text-[9px] uppercase text-blue-400 font-bold">Questions</p>
                     <p id="statQuestions" class="text-lg font-black text-blue-700">0</p>
@@ -65,12 +74,21 @@
                     <p class="text-[9px] uppercase text-red-400 font-bold">Duration</p>
                     <p id="statTime" class="text-lg font-black text-red-700">0m</p>
                 </div>
+                <div class="bg-green-50 p-2 rounded-lg border border-green-100">
+                    <p class="text-[9px] uppercase text-green-500 font-bold">Marks</p>
+                    <p id="statMarks" class="text-lg font-black text-green-700">0</p>
+                </div>
             </div>
 
             <button id="startBtn" class="w-full bg-blue-600 text-white py-4 rounded-xl font-black shadow-lg shadow-blue-200 hover:bg-blue-700 disabled:bg-gray-200 disabled:text-gray-400 disabled:shadow-none transition-all" disabled>
                 VIEW INSTRUCTIONS
             </button>
             
+            <button id="shareBtn" onclick="shareTest()" class="hidden w-full mt-3 py-3 rounded-xl font-bold text-sm text-blue-700 bg-blue-50 border border-blue-200 hover:bg-blue-100 transition flex items-center justify-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
+                Share this test
+            </button>
+
             <div id="statusMsg" class="mt-4 text-[10px] font-bold text-gray-400 uppercase tracking-tighter">Initializing API...</div>
         </div>
     </main>
@@ -96,6 +114,7 @@
                 <p>4. To select your answer, click on the button of one of the options.</p>
                 <p>5. To deselect your chosen answer, click on the <b>Clear</b> button.</p>
                 <p>6. To save your answer, you MUST click on the <b>Save & Next</b> button.</p>
+                <p>7. Each question carries <b id="insMarks">1</b> mark(s). The paper is of <b id="insTotal">0</b> marks in total. There is no negative marking.</p>
                 
                 <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8">
                     <div class="flex items-start">
@@ -120,7 +139,10 @@
         <div class="flex-1 flex flex-col bg-white overflow-hidden">
             <div class="px-4 py-2 border-b bg-gray-50 flex justify-between items-center text-sm shrink-0">
                 <span class="font-bold text-blue-800" id="currentQNumberDisplay">Q. 1</span>
-                <span class="text-[10px] bg-white border px-2 py-0.5 rounded font-bold uppercase text-gray-500">General Section</span>
+                <span class="flex items-center gap-2">
+                    <span id="marksTag" class="text-[10px] bg-green-50 border border-green-200 px-2 py-0.5 rounded font-bold text-green-700">+1 mark</span>
+                    <span class="text-[10px] bg-white border px-2 py-0.5 rounded font-bold uppercase text-gray-500">General Section</span>
+                </span>
             </div>
             <div id="questionContainer" class="flex-1 overflow-y-auto p-4 md:p-8 pb-32">
                 <div id="questionText" class="text-base md:text-lg font-medium text-gray-800 mb-6 leading-relaxed"></div>
@@ -170,9 +192,14 @@
         </div>
         <div id="detailedResults" class="space-y-4 max-w-2xl mx-auto w-full pb-24"></div>
         <div class="fixed bottom-0 left-0 w-full p-4 bg-white border-t safe-bottom">
-            <button onclick="resetExam()" class="w-full bg-blue-600 text-white py-4 rounded-xl font-bold">Return to Library</button>
+            <div class="grid grid-cols-2 gap-3">
+                <button onclick="shareTest()" class="w-full bg-blue-50 text-blue-700 border border-blue-200 py-4 rounded-xl font-bold">Share this test</button>
+                <button onclick="resetExam()" class="w-full bg-blue-600 text-white py-4 rounded-xl font-bold">Return to Library</button>
+            </div>
         </div>
     </div>
+
+    <div id="toast" role="status" aria-live="polite"></div>
 
     <script>
         const QUESTIONS_FOLDER = 'questions'; 
@@ -186,6 +213,94 @@
         let totalExamTime = 0; 
         let timeSpentPerQuestion = {}; 
         let timerInterval;
+        let marksPerQuestion = 1;
+        let currentTestName = '';
+
+        // ---------- Content protection ----------
+        // Note: this deters casual copying (right-click, selection, copy/paste, print, common
+        // devtools shortcuts). A static page can never fully stop screenshots or view-source.
+        let allowCopy = false; // only true while the Share button copies a link
+        const blockEvent = (e) => { e.preventDefault(); return false; };
+        ['contextmenu', 'selectstart', 'dragstart', 'cut', 'paste'].forEach(ev => document.addEventListener(ev, blockEvent));
+        document.addEventListener('copy', (e) => {
+            if (allowCopy) return;
+            e.preventDefault();
+            if (e.clipboardData) e.clipboardData.setData('text/plain', '');
+        });
+        function wipeClipboard() {
+            try { navigator.clipboard.writeText('').catch(() => {}); } catch (_) {}
+        }
+        document.addEventListener('keydown', (e) => {
+            const k = (e.key || '').toLowerCase();
+            const mod = e.ctrlKey || e.metaKey;
+            const blocked =
+                k === 'f12' || k === 'printscreen' ||
+                (mod && ['c', 'x', 'a', 's', 'p', 'u'].includes(k)) ||
+                (mod && e.shiftKey && ['i', 'j', 'c', 'k'].includes(k)) ||
+                (e.metaKey && e.altKey && ['i', 'j', 'c', 'u'].includes(k));
+            if (blocked) {
+                e.preventDefault();
+                e.stopPropagation();
+                if (k === 'printscreen') wipeClipboard();
+                return false;
+            }
+        }, true);
+        document.addEventListener('keyup', (e) => { if (e.key === 'PrintScreen') wipeClipboard(); });
+        window.addEventListener('beforeprint', wipeClipboard);
+
+        // ---------- Toast ----------
+        let toastTimer;
+        function showToast(msg) {
+            const t = document.getElementById('toast');
+            t.textContent = msg;
+            t.classList.add('show');
+            clearTimeout(toastTimer);
+            toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+        }
+
+        // ---------- Share a specific test ----------
+        function getTestLink(name) {
+            const base = window.location.href.split('#')[0].split('?')[0];
+            return `${base}?test=${encodeURIComponent(name)}`;
+        }
+
+        async function shareTest() {
+            if (!currentTestName) { showToast('Select a test first'); return; }
+            const url = getTestLink(currentTestName);
+            const payload = { title: currentTestName, text: `Take the "${currentTestName}" test on DTA`, url };
+
+            if (navigator.share) {
+                try { await navigator.share(payload); return; }
+                catch (err) { if (err && err.name === 'AbortError') return; }
+            }
+            try {
+                await navigator.clipboard.writeText(url);
+                showToast('Test link copied');
+                return;
+            } catch (_) {}
+            // Legacy fallback
+            try {
+                const ta = document.createElement('textarea');
+                ta.value = url;
+                ta.setAttribute('readonly', '');
+                ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;-webkit-user-select:text;user-select:text;';
+                document.body.appendChild(ta);
+                ta.select();
+                ta.setSelectionRange(0, url.length);
+                allowCopy = true;
+                const ok = document.execCommand('copy');
+                allowCopy = false;
+                document.body.removeChild(ta);
+                if (ok) { showToast('Test link copied'); return; }
+            } catch (_) { allowCopy = false; }
+            window.prompt('Copy this test link:', url);
+        }
+
+        function applyMarksUI(total) {
+            document.getElementById('insMarks').innerText = marksPerQuestion;
+            document.getElementById('insTotal').innerText = total * marksPerQuestion;
+            document.getElementById('marksTag').innerText = `+${marksPerQuestion} mark${marksPerQuestion === 1 ? '' : 's'}`;
+        }
 
         const repoFileList = document.getElementById('repoFileList');
         const startBtn = document.getElementById('startBtn');
@@ -229,7 +344,8 @@
             'TALLYPRIME PYQ 60Q(End Sem 2026).json',
             'Tally Interview Questions MCQ Test(45Q).json',
             'Tally Ledgers and Groups Quiz.json',
-            'Tally Prime Core Functionalities TEST (60Q).json'
+            'Tally Prime Core Functionalities TEST (60Q).json',
+            'Dynamics of Business Environment and Legal Frameworks - 50q.json'
         ];
 
         function populatePaperList(jsons) {
@@ -237,26 +353,45 @@
             jsons.forEach(file => {
                 const opt = document.createElement('option');
                 opt.value = file.download_url;
-                opt.textContent = file.name.replace('.json', '').replace(/-/g, ' ');
+                opt.dataset.name = file.name.replace(/\.json$/i, '');
+                opt.textContent = opt.dataset.name;
                 repoFileList.appendChild(opt);
             });
 
             repoFileList.onchange = async () => {
                 startBtn.disabled = true;
+                const chosen = repoFileList.selectedOptions[0];
+                currentTestName = chosen && chosen.dataset.name ? chosen.dataset.name : '';
+                document.getElementById('shareBtn').classList.toggle('hidden', !currentTestName);
                 statusMsg.innerText = "Calculating paper length...";
                 try {
                     const res = await fetch(repoFileList.value);
                     const data = await res.json();
                     const qCount = data.questions.length;
                     const totalMins = Math.ceil(qCount * MINUTES_PER_QUESTION);
+                    const mpq = Number(data.marksPerQuestion) || 1;
                     document.getElementById('paperStats').classList.remove('hidden');
                     document.getElementById('statQuestions').innerText = qCount;
+                    document.getElementById('statMarks').innerText = qCount * mpq;
                     document.getElementById('statTime').innerText = totalMins + "m";
                     document.getElementById('insDuration').innerText = totalMins;
                     startBtn.disabled = false;
                     statusMsg.innerText = "Exam Ready";
                 } catch (e) { statusMsg.innerText = "Error reading paper data"; }
             };
+
+            // Opened via a shared link (?test=Paper%20Name)? Pre-select that paper.
+            const wanted = new URLSearchParams(window.location.search).get('test');
+            if (wanted) {
+                const norm = (v) => v.replace(/\.json$/i, '').trim().toLowerCase();
+                const match = Array.from(repoFileList.options).find(o => o.dataset.name && norm(o.dataset.name) === norm(wanted));
+                if (match) {
+                    repoFileList.value = match.value;
+                    repoFileList.onchange();
+                } else {
+                    showToast('That test link is not available');
+                }
+            }
         }
 
         async function fetchExamLibrary() {
@@ -300,7 +435,9 @@
                 const res = await fetch(url);
                 const data = await res.json();
                 quizData = data.questions;
+                marksPerQuestion = Number(data.marksPerQuestion) || 1;
                 document.getElementById('quizTitleDisplay').innerText = data.quizTitle || "Online Test";
+                applyMarksUI(quizData.length);
                 
                 totalExamTime = Math.floor(quizData.length * MINUTES_PER_QUESTION * 60);
                 timeLeft = totalExamTime;
@@ -454,8 +591,12 @@
                 </div>`;
             });
             const accuracy = attempted > 0 ? Math.round((score / attempted) * 100) : 0;
-            document.getElementById('scoreSummary').innerHTML = `<p class="text-5xl font-black text-blue-600">${score}/${quizData.length}</p>`;
+            document.getElementById('scoreSummary').innerHTML = `<p class="text-5xl font-black text-blue-600">${score * marksPerQuestion}/${quizData.length * marksPerQuestion}</p><p class="text-xs font-bold text-gray-400 uppercase tracking-widest mt-1">Marks</p>`;
             document.getElementById('metricsSummary').innerHTML = `
+                <div class="bg-amber-50 px-4 py-2 rounded-lg border border-amber-100 text-center">
+                    <p class="text-[10px] text-amber-500 font-bold uppercase">Correct</p>
+                    <p class="text-xl font-black text-amber-700">${score}/${quizData.length}</p>
+                </div>
                 <div class="bg-blue-50 px-4 py-2 rounded-lg border border-blue-100 text-center">
                     <p class="text-[10px] text-blue-500 font-bold uppercase">Accuracy</p>
                     <p class="text-xl font-black text-blue-700">${accuracy}%</p>
@@ -475,6 +616,7 @@
         function saveState() {
             localStorage.setItem('nta_cloud_state', JSON.stringify({
                 quizData, currentIndex, userSelections, questionStatus, timeLeft, totalExamTime, timeSpentPerQuestion,
+                marksPerQuestion, testName: currentTestName,
                 title: document.getElementById('quizTitleDisplay').innerText,
                 ts: Date.now()
             }));
@@ -493,6 +635,9 @@
             questionStatus = data.questionStatus;
             timeSpentPerQuestion = data.timeSpentPerQuestion || {};
             timeLeft = data.timeLeft - elapsed;
+            marksPerQuestion = Number(data.marksPerQuestion) || 1;
+            currentTestName = data.testName || '';
+            applyMarksUI(quizData.length);
             totalExamTime = data.totalExamTime || (quizData.length * MINUTES_PER_QUESTION * 60);
 
             document.getElementById('quizTitleDisplay').innerText = data.title;
