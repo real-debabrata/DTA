@@ -216,6 +216,29 @@
         let marksPerQuestion = 1;
         let currentTestName = '';
 
+        // Short share links: https://your-site/?t=<code>
+        // Every test gets a 6-character code generated automatically from its file name,
+        // so old and new tests all work with no setup. Nothing to maintain.
+        // OPTIONAL: TEST_ALIASES lets you pick a prettier custom code for a specific test.
+        const TEST_ALIASES = {
+            'dbelf50': 'Dynamics of Business Environment and Legal Frameworks - 50q'
+        };
+
+        // Deterministic hash (cyrb53) -> 6 base-36 characters. Same name always gives the same code.
+        function shortId(name) {
+            const str = name.replace(/\.json$/i, '').trim().toLowerCase();
+            let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+            for (let i = 0; i < str.length; i++) {
+                const ch = str.charCodeAt(i);
+                h1 = Math.imul(h1 ^ ch, 2654435761);
+                h2 = Math.imul(h2 ^ ch, 1597334677);
+            }
+            h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+            h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+            const n = 4294967296 * (2097151 & h2) + (h1 >>> 0);
+            return n.toString(36).padStart(6, '0').slice(-6);
+        }
+
         // ---------- Content protection ----------
         // Note: this deters casual copying (right-click, selection, copy/paste, print, common
         // devtools shortcuts). A static page can never fully stop screenshots or view-source.
@@ -261,7 +284,8 @@
         // ---------- Share a specific test ----------
         function getTestLink(name) {
             const base = window.location.href.split('#')[0].split('?')[0];
-            return `${base}?test=${encodeURIComponent(name)}`;
+            const alias = Object.keys(TEST_ALIASES).find(k => TEST_ALIASES[k] === name);
+            return `${base}?t=${alias || shortId(name)}`;
         }
 
         async function shareTest() {
@@ -380,11 +404,20 @@
                 } catch (e) { statusMsg.innerText = "Error reading paper data"; }
             };
 
-            // Opened via a shared link (?test=Paper%20Name)? Pre-select that paper.
-            const wanted = new URLSearchParams(window.location.search).get('test');
-            if (wanted) {
+            // Opened via a shared link (?t=code, or the older ?test=Paper%20Name)? Pre-select that paper.
+            const params = new URLSearchParams(window.location.search);
+            const code = (params.get('t') || '').trim().toLowerCase();
+            const legacy = params.get('test');
+            if (code || legacy) {
                 const norm = (v) => v.replace(/\.json$/i, '').trim().toLowerCase();
-                const match = Array.from(repoFileList.options).find(o => o.dataset.name && norm(o.dataset.name) === norm(wanted));
+                const opts = Array.from(repoFileList.options).filter(o => o.dataset.name);
+                let match = null;
+                if (code) {
+                    const aliased = TEST_ALIASES[code];
+                    match = opts.find(o => (aliased && norm(o.dataset.name) === norm(aliased)) || shortId(o.dataset.name) === code);
+                } else {
+                    match = opts.find(o => norm(o.dataset.name) === norm(legacy));
+                }
                 if (match) {
                     repoFileList.value = match.value;
                     repoFileList.onchange();
